@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fcdada;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:aquamarine;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  
+  
+  .header-title {
+    margin: 0;
+    text-decoration: rgb(13, 26, 13);
+    font-size: 70px;
+    font-weight: 500;
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: #f88542;
+  }
+  
+  .header-photo {
+    margin-left: 1rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background-color: #ff8000;
+  }
+  
+  .secondary-header {
+    margin-bottom: 1rem;
+  }
+  
+  .secondary-header-title {
+    margin: 0;
+    color: rgb(32, 189, 137);
+    font-size: 50px;
+  }
+  
+  .lessons-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lessons-list li {
+    margin-bottom: 0.5rem;
+    
+  }
+    a {
+        text-decoration: none;
+        color: #ff00af;
+    }
+
+    a:hover {
+        color:aquamarine;
+    }
+  .lessons-list li a {
+    color: #ff00af;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+    
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #ff00af;
+    text-decoration: none;
+ }
+
+    a {
+        text-decoration: none;
+        color: #ff00af;
+    }
+
+    a:hover {
+        color:aquamarine;
+    }
+  
+  .footer-text {
+    margin: 0px;
+    color: #ff00af;
+        
+  }
+
+  .background-box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    
+  }

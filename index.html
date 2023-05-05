@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>My Web Dev Class Homework Website</title>
 </head>
 <body>
+  <header class="header">
+    <div class="header-content">
+      <h1 class="header-title">Alice Bridge</h1>
+      <img src="C:\Users\Alice\OneDrive\Pictures\fampic - Copy.jpeg" alt="My Photo" class="header-photo">
+    </div>
+  </header>
+  <header class="secondary-header">
+    <div class = "background-box">
+    <h2 class="secondary-header-title">WDD 230: Assignment Portal</h2>
+    </div>
+  </header>
+  <main>
+    <ul class="lessons-list">
+      <li><a href="title2.html">Lesson 2: Title</a></li>
+      <li><a href="title3.html">Lesson 3: Title</a></li>
+      <li><a href="title4.html">Lesson 4: Title</a></li>
+      <li><a href="title5.html">Lesson 5: Title</a></li>
+      <li><a href="title6.html">Lesson 6: Title</a></li>
+      <li><a href="title7.html">Lesson 7: Title</a></li>
+      <li><a href="title8.html">Lesson 8: Title</a></li>
+      <li><a href="title9.html">Lesson 9: Title</a></li>
+    </ul>
+  </main>
+  <footer class="footer">
+    <div class = "background-box"></div>
+    <p class="footer-text" id="copyright"></p>
+    <p>&copy: <a href="https://example.com">Alice Bridge</a> <span id="currentYear"></span> Last modified 05/03/2023</p>
+  </footer>
     
+    
+
+<script>
+  
+    var currentYear = new Date().getFullYear();
+  
+    var currentYearElement = document.querySelector("#currentYear");
+    currentYearElement.textContent = currentYear;
+</script>
 </body>
 </html>
