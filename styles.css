@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Sigmar&display=swap');
+
 
 
 body {
@@ -33,6 +36,7 @@ body {
   .header-title {
     margin: 0;
     text-decoration: rgb(13, 26, 13);
+    font-family: 'Sigmar', cursive;
     font-size: 70px;
     font-weight: 500;
     padding: 20px 50px;
@@ -53,9 +57,9 @@ body {
   }
   
   .secondary-header-title {
-    margin: 0;
+    margin: 10;
     color: rgb(32, 189, 137);
-    font-size: 50px;
+    font-size: 45px;
   }
   
   .lessons-list {
@@ -65,27 +69,22 @@ body {
   }
   
   .lessons-list li {
-    margin-bottom: 0.5rem;
+    margin-bottom: .05rem;
     
   }
-    a {
-        text-decoration: none;
-        color: #ff00af;
-    }
-
-    a:hover {
-        color:aquamarine;
-    }
+    
   .lessons-list li a {
     color: #ff00af;
     text-decoration: none;
-    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
     
   }
     
   
   .footer {
     position: absolute;
+    top: 5;
     bottom: 0;
     right: 0;
     left: 0;
@@ -111,7 +110,7 @@ body {
 
   .background-box {
     background-color: white;
-    padding: 20px;
+    padding: .05px;
     border: 1px solid black;
     
   }
