@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Caveat&family=Montserrat:wght@100&family=Sigmar&display=swap');
+
+
+nav {
+	display: flex;
+	justify-content: center;
+	background-color: #eea88c;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 0 10px;
+}
+
+a {
+	display: block;
+	color: rgb(3, 68, 80);
+	text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color:  #8f330f;
+}
+
+body {
+    background-color: rgb(25, 119, 136);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+h2 {
+    font-family: montserrat;
+    font-size: 40px;
+    color: pink;
+}
