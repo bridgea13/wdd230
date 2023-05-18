@@ -14,18 +14,24 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:aquamarine;
+    color:rgb(41, 158, 119);
     font-family: 'Poppins',sans-serif;
   }
   
   .header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-bottom: 2rem;
+    font-family: 'Sigmar', cursive;
+    font-size: 40px;
+    font-weight: 500;
+    color: #f88542;
+    padding: 20px 50px;
+    border-radius: 5px;
   }
   
-  .header-content {
+  /* .header-content {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,15 +48,14 @@ body {
     padding: 20px 50px;
     border-radius: 5px;
     color: #f88542;
-  }
+  } */
   
-  .header-photo {
-    margin-left: 1rem;
+  /* .header-photo {
+    margin-right: 1rem;
     width: 100px;
     height: 100px;
-    border-radius: 20%;
-    background-color: #ff8000;
-  }
+    border-radius: 10%;
+  } 
   
   .secondary-header {
     margin-bottom: 1rem;
@@ -60,7 +65,7 @@ body {
     margin: 10;
     color: rgb(32, 189, 137);
     font-size: 45px;
-  }
+  } */
   
   .lessons-list {
     list-style-type: none;
@@ -77,16 +82,11 @@ body {
     color: #ff00af;
     text-decoration: none;
     font-family: 'Caveat', cursive;
-    font-size: 30px;
-    
+    font-size: 30px;    
   }
     
   
   .footer {
-    top: 5;
-    bottom: 0;
-    right: 0;
-    left: 0;
     text-align: center;
     color: #ff00af;
     text-decoration: none;
@@ -97,19 +97,16 @@ body {
         color: #ff00af;
     }
 
-    a:hover {
-        color:aquamarine;
-    }
-  
+   
   .footer-text {
     margin: 0px;
     color: #ff00af;
         
   }
 
-  .background-box {
+  /* .background-box {
     background-color: white;
     padding: .05px;
     border: 1px solid black;
     
-  }
+  } */
