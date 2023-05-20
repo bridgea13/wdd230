@@ -32,7 +32,7 @@ img {
   }
 
 
-h2 {
+h2, h1 {
     font-family: montserrat;
     font-size: 40px;
     color: rgb(107, 42, 53);
