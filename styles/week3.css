@@ -3,13 +3,20 @@
 
 nav {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	background-color: #eea88c;
+    text-decoration: none;
+    list-style-type: none;   
 }
 
+ul {
+    display: flex;
+	justify-content: space-around;
+    list-style-type: none; 
+}
 
 a {
-	display: block;
+	display: flex;
 	color: rgb(3, 68, 80);
 	text-align: center;
     font-weight: bold;
@@ -23,11 +30,13 @@ a:hover {
 }
 
 body {
+    
     background-color: rgb(66, 192, 214);
+    padding: 5%;
 }
 
 img {
-    display: block;
+    display: flex;
     margin: 0 auto;
   }
 
