@@ -4,61 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles/base.css">
-    <link rel="stylesheet" type="text/css" href="/chamber/styles/medium.css">
-    <link rel="stylesheet" type="text/css" href="/chamber/styles/large.css">
-    <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../styles/medium.css">
-    <script src="/chamber/scripts/script.js"></script>
+    <title>Arrange</title>
+    <link rel="stylesheet" type="text/css" href="/chamber/styles/base.css" />
+    <link rel="stylesheet" type="text/css" href="/chamber/styles/large.css"/>
+    <link rel="stylesheet" type="text/css" href="/chamber/styles/medium.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/medium.css" />
 </head>
 <body>
-    <header>
-        <img src="/chamber/images/freewix_logochamber.jpg" alt="citycenterlogo">
-    <h2>City Center Chamber of Commerce <a class="facebook-icon" href="chamber\contact.html" tag="_blank">
-        <ion-icon name="logo-facebook"></ion-icon></a>
-        <a class="twitter-icon" href="chamber\contact.html" tag="_blank">
-        <ion-icon name="logo-twitter"></ion-icon></a>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></h2>
-    
-        <nav class="navbar">
-                <div class="navbar_container">
-                    <div class="navbar_toggle" id="mobile-menu">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                
-                    <ul class="nav-links">
-                        <li class="navbar__item"><a href="chamber\index.html" class="navbar__links" id="home-page" >Discover</a></li>
-                        <li class="navbar__item"><a href="chamber\directory.html" class="navbar__links" id="directory-page">Directory</a></li>
-                        <li class="navbar__item"><a href="chamber\join.html" class="navbar__links" id="join-page">Join</a></li>
-                        <li class="navbar__item"><a href="chamber\contact.html" class="navbar__links" id="contact-page">Contact</a></li>
-                    </ul>
-                </div>
-        </nav>
-        <p id="currentDate"></p>
-        
+    <header class="navbar_container">
+        <div class="logo"><img
+            src="/chamber/images/freewix_logochamber.jpg"/></div>
+        <div class="title">City Center Chamber of Commerce</div>
+        <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span></div>
+        <div class="icons">
+            </div><a href="chamber\contact.html" tag="_blank">
+            <ion-icon size="large" name="logo-facebook"></ion-icon></a>
+            <a href="chamber\contact.html" tag="_blank">
+            <ion-icon size="large" name="logo-twitter"></ion-icon></a>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script type="nomodule" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></div>
+        <div class="nav-links">
+            <li class="navbar__item"><a href="chamber\index.html" class="navbar__links" id="home-page">Discover</a></li>
+            <li class="navbar__item"><a href="chamber\directory.html" class="navbar__links" id="directory-page">Directory</a></li>
+            <li class="navbar__item"><a href="chamber\join.html" class="navbar__links" id="join-page">Join</a></li>
+            <li class="navbar__item"><a href="chamber\contact.html" class="navbar__links" id="contact-page">Contact</a></li>
+        </div>
     </header>
-    <main>
-        <div class='sections' id='row'>
-            <div class='box-1'>One
-                img hero 
-            </div>
-            <div class='box-2'>Two</div>
-            <div class='box-3'>Three</div>
-            <div class='box-4'>Four</div>
-            <div class='box-5'>Five</div>
-            <div class='box-6'>Six</div>  
+    <main class="main-containers">
+        <div class="hero-container">1</div>
+        <div class="event-container">2</div>
+        <div class="weather-container">3</div>
+        <div class="news-container">4</div>
+        <div class="spotlight">5</div>
+        <div class="join-container">6</div>
     </main>
-    
     <footer class="footer">
-        <img src="/chamber/images/freewix_logochamber.jpg" class="footer-logo" alt="citycenterlogo">
-        <p>123 Peach Hill Lane | Red River, NM | (555) 123-8372</p>
-        <a class="map_link" href="https://www.google.com/maps/place/Red+River+Ski+%26+Summer+Area/@36.702334,-105.4082775,14z/data=!4m15!1m8!3m7!1s0x871715f629295997:0x81dc866c92a37c41!2sRed+River,+NM!3b1!8m2!3d36.7080849!4d-105.4061159!16s%2Fm%2F0208rbg!3m5!1s0x871715f9350dc289:0xb020024e06ae54fa!8m2!3d36.7062461!4d-105.4128874!16s%2Fg%2F1ttpbrw6?entry=ttu">Map</a>
-        <p> &copy; <script id="currentYear"></script>   Alice Bridge Last modified 05/03/2023</p>
+        <div class="footer-logo"><img
+            src="/chamber/images/freewix_logochamber.jpg"
+            class="footer-logo"
+            alt="citycenterlogo"/></div>
+        <div class="contact-info">123 Peach Hill Lane | Red River, NM | (555)123-8372</div>
+        <div class="map-link"><a href="https://www.google.com/maps/place/Red+River+Ski+%26+Summer+Area/@36.702334,-105.4082775,14z/data=!4m15!1m8!3m7!1s0x871715f629295997:0x81dc866c92a37c41!2sRed+River,+NM!3b1!8m2!3d36.7080849!4d-105.4061159!16s%2Fm%2F0208rbg!3m5!1s0x871715f9350dc289:0xb020024e06ae54fa!8m2!3d36.7062461!4d-105.4128874!16s%2Fg%2F1ttpbrw6?entry=ttu"></a>Location Map</div>
+        <div class="final-info">&copy;
+            <script>document.write(new Date().getFullYear())</script>
+            Alice Bridge Last modified 05/03/2023</div>
     </footer>
-    
+    <script src="/chamber/scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

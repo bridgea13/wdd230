@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Caveat&family=Montserrat:wght@100&family=Sigmar&display=swap');
+ 
+ /* *{
+    outline: 1px solid rgb(126, 53, 5);
+} */
 
-
-nav {
-	display:block;
-	justify-content: center;
-	background-color: #eea88c;
+.navbar_container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Montserrat', 'Sans serif';
+    width: 100%;
+    background-color: rgb(222, 252, 238);
 }
 
 .nav-links {
@@ -17,21 +23,17 @@ nav {
     opacity: 1;
     z-index: -1;
     transition:all 0.5s ease;
-
 }
 .nav-links.active {
-    background:#ec8860;
+    background: white;
     top: 100%;
     opacity: 1;
     transition:all 0.5s ease;
     height: 60vh;
     font-size: 1.6rem;
-    
+    padding: 0;
 }
 
-.navbar__item {
-    height: 80px;
-}
 .navbar__links {
     color:rgb(66, 192, 214);
     text-decoration: none;
@@ -47,136 +49,104 @@ nav {
     width: 100%;
 }
 
-.navbar {
-    height: 130px;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    top: 0;
-
+.title {
+    /* flex-grow: .5;
+    margin-top: 50px;
+    height: 100px; */
+    color: rgb(168, 39, 39);
+    font-weight: 400;
+    font-size: 70px;
+    font-style: bold;
+    bottom: 0px;
 }
 
-.navbar_container {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1;
-    width: 100%;
-    padding: 0;
-  }
-
-.navbar_toggle .bar {
+.navbar_toggle .bar{
     display: block;
     cursor: pointer;
-    width: 25px;
+    width: 40px;
     height: 3px;
-    margin: 5px auto;
+    margin: 15px;
     transition:all 0.3s ease-in-out;
     background: black;
 }
 
 #mobile-menu {
     position: absolute;
-    top: 25%;
+    top: 5%;
     right: 5%;
     transform: translate(5%,20%);
 }
+
 #mobile-menu.is-active .bar:nth-child(2) {
     opacity:0;
 }
 #mobile-menu.is-active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
 }
-#mobile-menu.is-active .bar:nth-child(2) {
+#mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-.navbar-links:hover {
-    color: white;
-    transition:all 0.3s ease;
-}
-
-li {
-    display: block;
-	margin: 0 10px;
-}
-
-i {
-    display: flex;
-    justify-content: right;
-    font-size: 24px;
-    color: #3B5998;
-    margin-right: 10px;  
-}
-
-a {
-	display: block;
-	color: rgb(3, 68, 80);
-	text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-	padding: 14px 16px;
-	text-decoration: none;
-    border-radius: 5px;
-}
-
-a:hover {
-	background-color:  #8f330f;
-}
-
-body {
-    background-color: rgb(66, 192, 214);
-}
-
-main {
-       
-    margin: 0;
-    border: 0;
-    padding: .5em;
-    font-family: Montserrat, sans-serif;
-}
-
-.box-1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-
-
-img {
-    display: block;
-    margin: 0 auto;
-  }
-
-
-h2 {
-    display: flex;
-
-    color: rgb(3, 68, 80);
-	justify-content: center;
-    font-weight: bold;
-    font-family: montserrat;
-    font-size: 40px;
-    color: rgb(107, 42, 53);
-}
-
-facebook-icon {
+ion-icon {
     color: gray;
+    width: 90px;
+    height: 50px;
+    
 }
 
-twitter-icon {
-    color:gray;
+.main-containers{
+    height: 700px;
+    display: grid;
+    /* grid-template-columns: 33% 33% 32.5%;
+    grid-template-rows: 200px 200px;
+    row-gap: 10px;
+    column-gap:15px; */
+    border: 2px blue solid;
+    margin:10px;
 }
 
-.footer {
-    padding: 60px 0px;
-    background-color: #00000073;
-    color: #fff;
+/* .hero-container{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 2;
+}
+
+.spotlight{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-end: 3;
+} */
+
+.footer{
+    display: flex;
+    
+}
+
+.footer-logo{
+    height:100px;
+    
+    background-color: bisque;
     text-align: center;
-  }
-
-footer-logo {
-    width: 3px;
-    height: 3px;
 }
-
+.contact-info{
+    height:100px;
+    
+    background-color: bisque;
+    text-align: center;
+}
+.map-link{
+    height:100px;
+   
+    background-color: bisque;
+    text-align: center;
+}
+.final-info{
+    
+    height: 100px;
+    
+    
+    background-color: bisque;
+    text-align: center;
+}
