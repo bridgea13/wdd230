@@ -8,6 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
     yearElement.textContent = currentYear;
   });
 
+  var currentYear = new Date().getFullYear();
+  
+    var currentYearElement = document.querySelector("#currentYear");
+    currentYearElement.textContent = currentYear;
+
 
 // const footerText = document.getElementById('copyright');
 // const currentYear = new Date().getFullYear();
