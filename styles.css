@@ -5,67 +5,70 @@
 
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #fcdada;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color:rgb(13, 83, 60);
-    font-family: 'Poppins',sans-serif;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcdada;
+  margin: 0;
+  padding: 0;
+}
   
-  .header {
-    display: flex;
-    font-family: 'Sigmar', cursive;
-    font-size: 60px;
-    font-weight: 20;
-    color: #7a155a;
-  }
-  
-  .header-photo {
-    justify-content: flex-start;
-    height: 300px;
-  }
- 
-  .lessons-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .lessons-list li {
-    margin-bottom: .05rem;
-    
-  }
-    
-  .lessons-list li a {
-    color: #7a155a;
-    text-decoration: none;
-    font-family: 'Caveat', cursive;
-    font-size: 30px;    
-  }
-    
-  
-  .footer {
-    text-align: center;
-    color: #7a155a;
-    text-decoration: none;
- }
-
-    a {
-        text-decoration: none;
-        color: #7a155a;
-    }
-
    
-  .footer-text {
-    margin: 0px;
-    color: #7a155a;
-        
-  }
+h1 {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+ 
+  font-family: 'Sigmar', cursive;
+  font-size: 60px;
+  font-weight: 10;
+  color:rgb(41, 124, 124);
+  width: 1200px;
+}
+
+.header-photo {
+  justify-content: flex;
+  align-content: center;
+  border-color: black;  
+  border-style:double;
+  background-color:rgb(227, 240, 243);
+}
+ 
+h2{
+  display: flex;
+  align-content: center;
+  font-family: 'Sigmar', cursive;
+  font-size: 20px;
+  font-weight: 10;
+  color:rgb(41, 124, 124);
+}
+
+.lessons-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.lessons-list li {
+  margin-bottom: .05rem;
+}
+    
+.lessons-list li a {
+  color: #7a155a;
+  text-decoration: none;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;    
+}
+    
+  
+footer {
+  text-align: center;
+  color: #7a155a;
+  text-decoration: none;
+}
+
+  
+  
 
  
