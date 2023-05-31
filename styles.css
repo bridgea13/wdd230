@@ -28,7 +28,6 @@ h1 {
 }
 
 .header-photo {
-  justify-content: flex;
   align-content: center;
   border-color: black;  
   border-style:double;
