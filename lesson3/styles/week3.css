@@ -17,21 +17,21 @@ ul {
 
 a {
 	display: flex;
-	color: rgb(3, 68, 80);
+	color: rgb(12, 67, 77);
 	text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
 a:hover {
-	background-color:  #8f330f;
+	background-color:  #dfa48d;
 }
 
 body {
     
-    background-color: rgb(66, 192, 214);
+    background-color: rgb(158, 212, 221);
     padding: 5%;
 }
 
