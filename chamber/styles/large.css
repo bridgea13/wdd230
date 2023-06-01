@@ -6,7 +6,7 @@
 
 
   @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Caveat&family=Montserrat:wght@100&family=Sigmar&display=swap');
- 
+/*  
   *{
      outline: 1px solid rgb(126, 53, 5);
  }
@@ -21,7 +21,7 @@
  }
 
  .nav-links {
-	  display: grid;
+	display: grid;
     grid-template-columns: auto;
     margin: 0;
     width: 100%;
@@ -59,10 +59,10 @@
      height: 3px;
      margin: 15px;
      transition:all 0.3s ease-in-out;
-     background: black;
- }
+     background: rgb(80, 99, 13);
+ } */
  
- #mobile-menu {
+ /* #mobile-menu {
      position: absolute;
      top: 5%;
      right: 5%;
@@ -77,12 +77,12 @@
  }
  #mobile-menu.is-active .bar:nth-child(3) {
      transform: translateY(-8px) rotate(-45deg);
- }
+ } */
  
- ion-icon {
+ /* ion-icon {
      color: gray;
-     width: 90px;
-     height: 50px;
+     width: 50px;
+     
      
  }
  
@@ -97,7 +97,7 @@
      margin:10px;
  }
  
- .hero-container{
+ .hero-container .hero-img{
      grid-column-start: 2;
      grid-row-start: 1;
      grid-row-end: 4;
@@ -156,4 +156,4 @@
      grid-row-end: 2;
      background-color: bisque;
      text-align: center;
- }
+ } */
