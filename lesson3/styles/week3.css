@@ -19,8 +19,9 @@ nav {
     padding: 0; 
 } */
 ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px 1fr));
+    display: flex;
+    flex-direction: column;
+    
     list-style-type: none;
     overflow: hidden;
     margin: 0;
@@ -80,4 +81,13 @@ footer{
     font-family: "Montserrat";
     color:rgb(107, 42, 53);
     
+}
+
+@media only screen and (min-width: 768px){
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
 }
