@@ -2,28 +2,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Caveat&family=Montserrat:wght@100&family=Sigmar&display=swap');
  
- *{
+ /* *{
     outline: 1px solid rgb(126, 53, 5);
-}
+} */
 
+header{
+    position:sticky;
+    top: 0;
+    z-index: 999;
+}
 .navbar_container{
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: left;
+    
     font-family: 'Montserrat', 'Sans serif';
-    /* width: 100%; */
+    height: 80px;
+    width: 100%;
+    z-index: 1;
     background-color: rgb(222, 252, 238);
+}
+.main-logo img{
+    width: 85px;
+    padding-right: 15px;
 }
 
 .nav-links {
 	display: grid;
     grid-template-columns: auto;
     margin: 0;
-    /* width: 100%; */
+    width: 100%;
     position: absolute;
     top: -1000px;
     opacity: 1;
-    z-index: -1;
+    /* z-index: -1; */
     transition:all 0.5s ease;
 }
 .nav-links.active {
@@ -42,37 +53,55 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100%;
-    width: 125px; */
+    height: 100%;
+    width: 125px;
     transition: all 0.3s ease;
     padding-top: 5px;
     font-weight: 700;
     text-align: center;
     width: 100%;
 }
+.navbar__item{
+    height: 80px;
+    list-style-type: none;
+}
 
 .title {
     display: block;
-    
     color: rgb(168, 39, 39);
     font-weight: 400;
-    font-size: 70px;
+    font-size: 5vw;
     font-style: bold;
     bottom: 0px;
+    max-width: 50vw;
+}
+
+.navbar{
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+
 }
 
 .navbar_toggle .bar{
     display: block;
     cursor: pointer;
-    width: 40px;
+    width: 25px;
     height: 3px;
-    margin: 15px;
+    margin: 5px auto;
     transition:all 0.3s ease-in-out;
     background: black;
 }
 
 #mobile-menu {
     position: absolute;
+    top: 5%;
+    right: 5%;
+    transform: translate(5%,20%);
+}
+#mobile-menu.active {
+    position:absolute;
     top: 5%;
     right: 5%;
     transform: translate(5%,20%);
@@ -88,40 +117,55 @@
     transform: translateY(-8px) rotate(-45deg);
 }
 
-ion-icon {
+.icons{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    top: 30%;
+    right: 15%;
+    z-index: 100;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 35px;
     color: gray;
-    width: 90px;
-    height: 50px;
+    width: 50px;
+    height: 20px;
     
 }
 
 .main-containers{
-    
-    display: inline-block;
+    display: flex;
+    height: auto;
+    width: 100%;
     border: 2px rgb(22, 23, 24) solid;
     margin:10px;
     padding: 0 1em;
 }
 
 .hero-img{
-   
-   max-width: 100%;
+   height: auto; 
+   width: 100%;
    
 
 }
-/* .hero-container{
-    /* grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    grid-column-end: 2; 
-} /*
-
-.spotlight{
+.hero-container img{
+    height: auto;
+} 
+.hero-container picture{
+    height:auto;
+    width: 100%;
+}
+/* .spotlight{
     grid-column-start: 3;
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-end: 3;
-} */
+} 
 
 .footer{
     display: flex;
