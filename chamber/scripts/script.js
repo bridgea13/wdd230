@@ -12,7 +12,12 @@
 //     var dateElement = document.getElementById("currentDate");
 //     dateElement.textContent = currentDate;
 //   });
-
+// const banner = document.querySelector('.banner');
+// if (d.getDay() == 1 || d.getDay() == 2) {
+//   banner.style.display = "block";
+//   social.classList.toggle("is-active");
+//   menu.style.top = "40%";
+// }
 //     const hamburgerMenu = document.querySelector('.hamburger-menu');
 //     const navLinks = document.querySelector('.nav-links');
 

@@ -1,29 +1,76 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Caveat&family=Montserrat:wght@100&family=Sigmar&display=swap');
  
  /* *{
     outline: 1px solid rgb(126, 53, 5);
 } */
+:root {
+    background: rgb(238, 213, 213);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: white;
+}
 
 header{
     position:sticky;
     top: 0;
     z-index: 999;
+    background-color: rgb(7, 58, 102);
+    height: 60px;
 }
+
+.navbar{
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background-color: yellow;
+}
+
 .navbar_container{
     display: flex;
     justify-content: left;
-    
     font-family: 'Montserrat', 'Sans serif';
-    height: 80px;
+    height: 200px;
     width: 100%;
     z-index: 1;
     background-color: rgb(222, 252, 238);
 }
+
 .main-logo img{
-    width: 85px;
+    width: fit-content;
     padding-right: 15px;
+}
+
+.title {
+    display: block;
+    color: rgb(168, 39, 39);
+    font-weight: 400;
+    font-size: 5vw;
+    font-style: bold;
+    bottom: 0px;
+    width: fit-content;
+}
+
+.navbar_toggle .bar{
+    display: block;
+    cursor: pointer;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition:all 0.3s ease-in-out;
+    background: black;
+}
+
+.navigation-toolbar{
+    background-color:burlywood;
+    display:block;
 }
 
 .nav-links {
@@ -37,6 +84,7 @@ header{
     /* z-index: -1; */
     transition:all 0.5s ease;
 }
+
 .nav-links.active {
     background: white;
     top: 100%;
@@ -61,37 +109,10 @@ header{
     text-align: center;
     width: 100%;
 }
+
 .navbar__item{
     height: 80px;
     list-style-type: none;
-}
-
-.title {
-    display: block;
-    color: rgb(168, 39, 39);
-    font-weight: 400;
-    font-size: 5vw;
-    font-style: bold;
-    bottom: 0px;
-    max-width: 50vw;
-}
-
-.navbar{
-    height: 130px;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-
-}
-
-.navbar_toggle .bar{
-    display: block;
-    cursor: pointer;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    transition:all 0.3s ease-in-out;
-    background: black;
 }
 
 #mobile-menu {
@@ -100,6 +121,7 @@ header{
     right: 5%;
     transform: translate(5%,20%);
 }
+
 #mobile-menu.active {
     position:absolute;
     top: 5%;
@@ -121,9 +143,13 @@ header{
     display: flex;
     align-items: center;
     position:absolute;
-    top: 30%;
+    column-gap: 2px;
+    /* top: 30%; */
     right: 15%;
+    height: 100%;
     z-index: 100;
+    width:fit-content;
+    /* overflow:hidden; */
 }
 
 .icons a {
@@ -134,31 +160,77 @@ header{
     width: 35px;
     color: gray;
     width: 50px;
-    height: 20px;
-    
+    height: 20px;    
 }
 
 .main-containers{
     display: flex;
-    height: auto;
+    justify-content: center;
+    align-items: center;
+    /* height: calc(100vh - 60px); */
     width: 100%;
     border: 2px rgb(22, 23, 24) solid;
-    margin:10px;
-    padding: 0 1em;
+    margin-top: 200px;
+    padding: 20 1em;
+    column-gap: 220px;
+    background-size: 70vh;
+    z-index: 100;
 }
 
 .hero-img{
    height: auto; 
    width: 100%;
-   
-
 }
+
 .hero-container img{
-    height: auto;
-} 
+    height: auto;    
+}
+
 .hero-container picture{
     height:auto;
     width: 100%;
+}
+
+.event-container{
+    border: 2px rgb(22, 23, 24) solid;
+}
+.weather-container{
+    border: 2px rgb(22, 23, 24) solid;
+}
+.news-container{
+    border: 2px rgb(22, 23, 24) solid;
+}
+.spotlight{
+    border: 2px rgb(22, 23, 24) solid;
+}
+.join-container{
+    border: 2px rgb(22, 23, 24) solid;
+}
+
+/* mobile version */
+@media only screen and (max-width: 600px){
+    .wrapper-main {
+        width: 80%;
+    }
+    header{
+        position:fixed;
+    }
+    .main-logo img{
+        padding-left: 20px;
+    }
+    .title {
+        width: 50vh;
+        word-wrap: ;
+    }
+   
+    .main-containers{
+        display: flex;
+        height: auto;
+        width: 100%;
+        border: 2px rgb(22, 23, 24) solid;
+        margin-top: 200px;
+        padding: 20 1em;
+    }
 }
 /* .spotlight{
     grid-column-start: 3;
@@ -189,7 +261,10 @@ header{
 }
 .map-link{
     
-   
+.wrapper-main {
+        width: 1100px;
+        margin: 0 auto;
+    }   
    
     text-align: center;
 }

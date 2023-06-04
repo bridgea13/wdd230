@@ -1,0 +1,21 @@
+
+{
+    display: block;
+    font-size: 30;
+    color:aqua;
+}
+
+
+
+
+
+
+
+.images{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    size: 300px x 400px;
+    row-gap: 5px;
+
+}
