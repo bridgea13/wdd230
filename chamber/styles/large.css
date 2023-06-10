@@ -1,11 +1,33 @@
-@media (min-width: 901px) {
+@media screen and (min-width: 901px) {
     body {
       font-size: 18px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+       position: initial;
+      
+    }
+    .nav-links ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+    }
+    .navbar__item {
+        width: 150px;
+    }
+    .navbar__item {
+        height: auto;
+    }
+    #mobile-menu {
+        display: none;
     }
   }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Caveat&family=Montserrat:wght@100&family=Sigmar&display=swap');
+
 /*  
   *{
      outline: 1px solid rgb(126, 53, 5);

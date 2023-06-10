@@ -15,6 +15,8 @@ html {
 
 body{
     background-color: white;
+    font-family: "Montserrat", "Sans-serif";
+    font-style: bold;
 }
 
 header{
@@ -22,7 +24,7 @@ header{
     top: 0;
     z-index: 999;
     background-color: rgb(7, 58, 102);
-    height: 60px;
+ 
 }
 
 .navbar{
@@ -36,7 +38,7 @@ header{
 .navbar_container{
     display: flex;
     justify-content: left;
-    font-family: 'Montserrat', 'Sans serif';
+    align-items: center;
     height: 200px;
     width: 100%;
     z-index: 1;
@@ -52,8 +54,7 @@ header{
     display: block;
     color: rgb(168, 39, 39);
     font-weight: 400;
-    font-size: 5vw;
-    font-style: bold;
+    font-size: 30px;
     bottom: 0px;
     width: fit-content;
 }
@@ -74,8 +75,8 @@ header{
 }
 
 .nav-links {
-	display: grid;
-    grid-template-columns: auto;
+	
+ 
     margin: 0;
     width: 100%;
     position: absolute;
@@ -84,7 +85,15 @@ header{
     /* z-index: -1; */
     transition:all 0.5s ease;
 }
-
+.nav-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    margin-top: 0%;
+    background-color: white;
+}
 .nav-links.active {
     background: white;
     top: 100%;
@@ -144,12 +153,10 @@ header{
     align-items: center;
     position:absolute;
     column-gap: 2px;
-    /* top: 30%; */
     right: 15%;
     height: 100%;
     z-index: 100;
     width:fit-content;
-    /* overflow:hidden; */
 }
 
 .icons a {
@@ -164,26 +171,37 @@ header{
 }
 
 .main-containers{
-    display: flex;
-    justify-content: center;
+    display: grid;
     align-items: center;
-    /* height: calc(100vh - 60px); */
-    width: 100%;
-    border: 2px rgb(22, 23, 24) solid;
-    margin-top: 200px;
-    padding: 20 1em;
-    column-gap: 220px;
+    /* background-size: 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2);
+    grid-gap: 2px; */
+    
+    
+    /* grid-auto-rows: minmax(100px,auto); */
+    /* justify-content: center;
+    align-items: center;
+    border: 2px rgb(189, 195, 201) solid;
+    margin-top: 78px;
+    padding: 20 1em; */
+    /* column-gap: 220px;
     background-size: 70vh;
-    z-index: 100;
+    z-index: 100; */
 }
 
-.hero-img{
+/* .hero-img{
    height: auto; 
    width: 100%;
 }
 
 .hero-container img{
-    height: auto;    
+    height: auto;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 2px rgb(189, 195, 201) solid;    
 }
 
 .hero-container picture{
@@ -191,83 +209,56 @@ header{
     width: 100%;
 }
 
-.event-container{
-    border: 2px rgb(22, 23, 24) solid;
+.event-container img{
+    border: 2px rgb(189, 195, 201) solid;
+    height:auto;
+    grid-column: 3;
+    grid-row: 1;
 }
-.weather-container{
-    border: 2px rgb(22, 23, 24) solid;
+.event-container picture{
+    height:auto;
+    width: 100%;
+}
+.weather-container img{
+    border: 2px rgb(189, 195, 201) solid;
+    height:auto;
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+.weather-container picture{
+    height:auto;
+    width: 100%;
 }
 .news-container{
-    border: 2px rgb(22, 23, 24) solid;
+    border: 2px rgb(189, 195, 201) solid;
+    height:auto;
+    grid-column: 3;
+    grid-row: 3;
 }
 .spotlight{
-    border: 2px rgb(22, 23, 24) solid;
+    border: 2px rgb(189, 195, 201) solid;
+    height:auto;
+    grid-column: 2;
+    grid-row: 4;
 }
-.join-container{
-    border: 2px rgb(22, 23, 24) solid;
+.join-container img{
+    border: 2px rgb(189, 195, 201) solid;
+    height: auto;
+    grid-column: 3;
+    grid-row: 4;
+    
 }
+.join-container picture{
+    height:auto;
+    width: 100%;
 
-/* mobile version */
-@media only screen and (max-width: 600px){
-    .wrapper-main {
-        width: 80%;
-    }
-    header{
-        position:fixed;
-    }
-    .main-logo img{
-        padding-left: 20px;
-    }
-    .title {
-        width: 50vh;
-        word-wrap: ;
-    }
-   
-    .main-containers{
-        display: flex;
-        height: auto;
-        width: 100%;
-        border: 2px rgb(22, 23, 24) solid;
-        margin-top: 200px;
-        padding: 20 1em;
-    }
-}
-/* .spotlight{
-    grid-column-start: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-end: 3;
-} 
-
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: bisque;
-}
-/* 
-.footer-logo{
-    
-    
-    
-    text-align: center;
-}
-.contact-info{
-    
-    
-   
-    text-align: center;
-}
-.map-link{
-    
-.wrapper-main {
-        width: 1100px;
-        margin: 0 auto;
-    }   
-   
-    text-align: center;
-}
-.final-info{    
-    
 } */
+
+footer{
+    padding: .75rem;
+    background-color: bisque;
+    text-align: center;
+}
+.footer-logo{
+    text-align: left;
+}
