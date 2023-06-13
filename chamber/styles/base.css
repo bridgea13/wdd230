@@ -1,7 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Caveat&family=Montserrat:wght@100&family=Sigmar&display=swap');
- 
+
  /* *{
     outline: 1px solid rgb(126, 53, 5);
 } */
@@ -12,11 +12,23 @@
 html {
     font-size: 62.5%;
 }
-
+.banner{
+    background-color: bisque;
+}
+.banner-content{
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    color:brown;
+}
 body{
     background-color: white;
     font-family: "Montserrat", "Sans-serif";
     font-style: bold;
+    font-weight: 800;
 }
 
 header{
@@ -24,9 +36,13 @@ header{
     top: 0;
     z-index: 999;
     background-color: rgb(7, 58, 102);
- 
+    
 }
 
+.current-date{
+    background-color: bisque;
+    
+}
 .navbar{
     height: 200px;
     justify-content: center;
@@ -53,7 +69,7 @@ header{
 .title {
     display: block;
     color: rgb(168, 39, 39);
-    font-weight: 400;
+    font-weight: 800;
     font-size: 30px;
     bottom: 0px;
     width: fit-content;
@@ -75,9 +91,7 @@ header{
 }
 
 .nav-links {
-	
- 
-    margin: 0;
+	margin: 0;
     width: 100%;
     position: absolute;
     top: -1000px;
@@ -93,6 +107,7 @@ header{
     width: 100%;
     margin-top: 0%;
     background-color: white;
+    font-weight: 800;
 }
 .nav-links.active {
     background: white;
@@ -105,7 +120,7 @@ header{
 }
 
 .navbar__links {
-    color:rgb(66, 192, 214);
+    color:rgb(37, 110, 122);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -114,7 +129,8 @@ header{
     width: 125px;
     transition: all 0.3s ease;
     padding-top: 5px;
-    font-weight: 700;
+    font-weight: 1000;
+    font-style: bold;
     text-align: center;
     width: 100%;
 }
