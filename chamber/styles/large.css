@@ -24,6 +24,42 @@
     #mobile-menu {
         display: none;
     }
+    .main-containers{
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    .event-container{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 300px;
+    }
+    .hero-container{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        width: 600px;
+    }
+    .weather-container{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 300px;
+    }
+    .join-container{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 300px;
+    }
+    .news-container{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        width: 600px;
+    }
+    .spotlight-container{
+        grid-column: 3/4;
+        grid-row: 1/4;
+        width: 300px;
+    }
+
   }
 
 
