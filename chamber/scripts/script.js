@@ -1,7 +1,7 @@
 
 
 var date = new Date();
-var day = new weekDay();  
+// var day = new weekDay();  
 
 var yearElement = document.getElementById("year");
 yearElement.textContent = date.getFullYear();
@@ -9,9 +9,9 @@ yearElement.textContent = date.getFullYear();
 document.querySelector("#lastModified").textContent=document.lastModified;
 document.querySelector(".current-date").textContent=date.toLocaleDateString("en-GB",{ weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 
-const banner = document.querySelector('.banner');
-if(weekday() == "Monday" || weekday == "Tuesday");
-  banner.getElementsByClassName.display = "block";
+// const banner = document.querySelector('.banner');
+// if(weekday() == "Monday" || weekday == "Tuesday");
+//   banner.getElementsByClassName.display = "block";
   
 // var dayOfWeek = date.getDay();
 // var weekday = new Array(7);

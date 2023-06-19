@@ -1,8 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Sigmar&display=swap');
 
 
+
+    
+header{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: auto;
+  border-color: black;  
+  border-style: solid;
+  background-color:rgb(227, 240, 243);
+  font-family: 'Sigmar', cursive;
+  font-size: 60px;
+  font-weight: 10;
+  color:rgb(41, 124, 124);
+  padding: 20px;
+}
+
+.title{
+  display: flex;
+  font-family: 'Sigmar', cursive;
+  font-size: 60px;
+  font-weight: 10;
+  color:rgb(41, 124, 124);
+}
+
+.header-photo {
+  display: flex;
+  width:fit-content;
+  align-content: center;
+  background-color:rgb(227, 240, 243);
+  padding-right: 10px;
+}
 
 body {
   display: flex;
@@ -13,43 +45,11 @@ body {
   margin: 0;
   padding: 0;
 }
-  
-   
-h1 {
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
  
-  font-family: 'Sigmar', cursive;
-  font-size: 60px;
-  font-weight: 10;
-  color:rgb(41, 124, 124);
-  width: 1200px;
-}
-
-.header-photo {
-  align-content: center;
-  border-color: black;  
-  border-style:double;
-  background-color:rgb(227, 240, 243);
-}
- 
-h2{
+.lessons-list ul{
   display: flex;
-  align-content: center;
-  font-family: 'Sigmar', cursive;
-  font-size: 20px;
-  font-weight: 10;
-  color:rgb(20, 112, 112);
-}
-
-.lessons-list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
-}
-  
-.lessons-list li {
   margin-bottom: .05rem;
 }
     
@@ -57,14 +57,23 @@ h2{
   color: #7a155a;
   text-decoration: none;
   font-family: 'Caveat', cursive;
-  font-size: 30px;    
+  font-size: 40px;
+  font-weight: 30;  
 }
-    
   
 footer {
+  display: flex;
+  justify-content: center;
   text-align: center;
   color: #7a155a;
   text-decoration: none;
+  padding: 20px;
+  border-color: black;  
+  border-style: solid;
+  background-color:rgb(227, 240, 243);
+  width: auto;
+  font-family: 'Poppins', cursive;
+  font-size: 18px;
 }
 
   
