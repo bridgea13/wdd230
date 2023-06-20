@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Caveat&family=Montserrat:wght@100&family=Sigmar&display=swap');
+
+
+header{
+    background-color: rgb(219, 245, 245);
+    border-style: solid;
+}
+
+.title{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    color: rgb(41, 103, 128);
+}
+
+.name{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 1000;
+    color: rgb(41, 103, 128);
+}
+
+body{
+    background-color: rgb(240, 200, 182);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    color: rgb(41, 103, 128);
+}
+
+main{
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem; 
+}
+
+section {
+    
+	margin: 0.5rem;
+	border: 1px solid rgb(41, 103, 128);
+	padding: 0 1rem;
+	background-color: white;
+}
+
+main section h3{
+    display: flex;
+	background-color:rgb(219, 245, 245);
+    padding: 4%;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+}
+main section:nth-child() {
+	display: none;
+	margin: 0.5rem;
+}
+
+.colimage {
+    width: 100%;
+	box-shadow: 0 0 30px #333;
+    align-items: center;
+}
+ 
+footer{
+    display: flex;
+    padding: .75rem;
+    background-color: rgb(219, 245, 245);
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+}
+
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+    main section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
