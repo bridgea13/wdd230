@@ -45,7 +45,7 @@
   .weather-container {
     margin: 10px auto;
     position: relative;
-    border: 1px dashed black;
+    border: 1px solid black;
     grid-column: 1/2;
     grid-row: 2/3;
     width: 300px;
@@ -57,14 +57,15 @@
     width: 98%;
     height: 250px;
   }
+ 
+ 
   .weathersummary {
-    position: absolute;
-    bottom: 50px;
-    background: radial-gradient(green, rgb(191, 223, 191));
-    border: 1px solid blue;
-    padding: 0.5rem;
-    box-shadow: 0 0 30px #777;
+    height: 100px;
+    top: 200px;
+    right: 50px;
+    
   }
+ 
   .join-container {
     grid-column: 1/2;
     grid-row: 3/4;

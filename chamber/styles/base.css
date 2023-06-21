@@ -244,9 +244,33 @@ header {
   height: auto;
   width: 100%;
 }
-.weather-container img {
+.weather-container img{
   height: auto;
   width: 100%;
+  position:relative;
+  /* border: 1px solid black; */
+
+}
+h3{
+    margin: 0 0 .5rem;
+    border-bottom:1px solid black; 
+}
+p{
+    margin: 0;
+}
+.weathersummary{
+    position: absolute;
+    right: 90px;
+    bottom: -400px;
+    background: radial-gradient(rgb(218, 209, 85), rgb(145, 233, 199));
+    border: 2px solid black;
+    padding: 0.5rem;
+    box-shadow: 0 0 30px #777;
+    opacity: 0.8;
+}  
+.weathersummary span {
+	font-style: italic;
+	font-weight: 700;
 }
 .news-container img {
   height: auto;
