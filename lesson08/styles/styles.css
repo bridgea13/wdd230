@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Sigmar&display=swap");
+
+body {
+  background-color: rgb(172, 197, 172);
+}
+h2 {
+  font-family: "Caveat", sans-serif;
+  font-size: 55px;
+  color:black;
+  text-align: center;
+}
+table {
+  font-family: "Caveat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  border: thin solid brown var(--border);
+  box-shadow: 0 0 10px var(--shadow);
+  border-collapse: separate;
+  empty-cells: show;
+}
+thead {
+  background-color: white;
+  text-align: center;
+  empty-cells: show;
+}
+th {
+  text-align: center;
+  border: 1px solid black;
+
+  padding: 8px;
+  color: black;
+}
+td {
+  text-align: center;
+  border: 1px solid black;
+  font-weight:500;
+  padding: 8px;
+  color:black;
+}
+
+tr:nth-child(even) {
+  background-color: #bdbaba;
+}
+caption {
+  padding: 10px;
+  caption-side: bottom;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
