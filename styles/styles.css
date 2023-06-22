@@ -1,40 +1,4 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Sigmar&display=swap');
-
-
-
-    
-header{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  width: auto;
-  border-color: black;  
-  border-style: solid;
-  background-color:rgb(227, 240, 243);
-  font-family: 'Sigmar', cursive;
-  font-size: 60px;
-  font-weight: 10;
-  color:rgb(41, 124, 124);
-  padding: 20px;
-}
-
-.title{
-  display: flex;
-  font-family: 'Sigmar', cursive;
-  font-size: 60px;
-  font-weight: 10;
-  color:rgb(41, 124, 124);
-}
-
-.header-photo {
-  display: flex;
-  width:fit-content;
-  align-content: center;
-  background-color:rgb(227, 240, 243);
-  padding-right: 10px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Sigmar&display=swap");
 
 body {
   display: flex;
@@ -42,25 +6,64 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #fcdada;
-  margin: 0;
-  padding: 0;
 }
- 
-.lessons-list ul{
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  border-color: black;
+  border-style: solid;
+  background-color: rgb(227, 240, 243);
+  font-family: "Sigmar", cursive;
+  font-size: 40px;
+  font-weight: 10;
+  color: rgb(41, 124, 124);
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.title {
+  font-family: "Sigmar", cursive;
+  font-size: 30px;
+  font-weight: 10;
+  color: rgb(41, 124, 124);
+}
+div {
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+img {
+  width: auto;
+  height: auto;
+  max-height: 200px;
+  max-width: 200px;
+
+  object-fit: contain;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(227, 240, 243);
+}
+
+.lessons-list ul {
   display: flex;
   list-style-type: none;
   padding: 0;
-  margin-bottom: .05rem;
+  margin-bottom: 0.05rem;
 }
-    
+
 .lessons-list li a {
   color: #7a155a;
   text-decoration: none;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 40px;
-  font-weight: 30;  
+  font-weight: 30;
 }
-  
+
 footer {
   display: flex;
   justify-content: center;
@@ -68,15 +71,10 @@ footer {
   color: #7a155a;
   text-decoration: none;
   padding: 20px;
-  border-color: black;  
+  border-color: black;
   border-style: solid;
-  background-color:rgb(227, 240, 243);
+  background-color: rgb(227, 240, 243);
   width: auto;
-  font-family: 'Poppins', cursive;
+  font-family: "Poppins", cursive;
   font-size: 18px;
 }
-
-  
-  
-
- 
