@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Target",
+        "address": "4225 Crestview Dr SE, Rio Rancho, NM 87124",
+        "phone": "1.800.440.0680",
+        "url": "https://target.com",
+        "urlTex":"www.target.com",
+        "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
+    },
+    {
+        "name": "Target",
+        "address": "4225 Crestview Dr SE, Rio Rancho, NM 87124",
+        "phone": "1.800.440.0680",
+        "url": "https://target.com",
+        "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
+    },
+    {
+        "name": "Target",
+        "address": "4225 Crestview Dr SE, Rio Rancho, NM 87124",
+        "phone": "1.800.440.0680",
+        "url": "https://target.com",
+        "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
+    }
+]

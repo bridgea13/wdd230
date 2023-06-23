@@ -8,22 +8,28 @@
     flex-direction: row;
     position: initial;
   }
+  
   .nav-links ul {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     width: 100%;
   }
+
   .navbar__item {
     width: 150px;
   }
+
   .navbar__item {
     height: auto;
   }
+
   #mobile-menu {
     display: none;
   }
+
   .main-containers {
+    
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
@@ -31,209 +37,40 @@
   .event-container {
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 300px;
   }
+
   .hero-container {
-    margin: 10px auto;
     grid-column: 2/3;
-    grid-row: 1/3;
-    width: 960px;
-    height: 300px;
-    background-color: rgb(186, 221, 209);
-    border: 1px solid #333;
+    grid-row: 1/2;
   }
+
   .weather-container {
-    margin: 10px auto;
-    position: relative;
-    border: 1px solid black;
+    position: relative;    
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 300px;
   }
-  .weather-img {
-    margin: 10px auto;
-    background-color: gray;
-    border: 1px solid black;
-    width: 98%;
-    height: 250px;
-  }
- 
- 
+  
   .weathersummary {
     height: 100px;
     top: 200px;
     right: 50px;
-    
   }
- 
+
   .join-container {
     grid-column: 1/2;
     grid-row: 3/4;
-    width: 300px;
   }
+
   .news-container {
     grid-column: 2/3;
     grid-row: 3/4;
-    width: 600px;
   }
+
   .spotlight-container {
     grid-column: 3/4;
-    grid-row: 1/4;
-    width: 300px;
+    grid-row: 1/5;
   }
-  .footer-logo {
-    text-align: left;
-  }
+
 }
 
-/*  
-  *{
-     outline: 1px solid rgb(126, 53, 5);
- }
- 
- .navbar_container{
-     display: flex;
-     justify-content: space-around;
-     text-align: center;
-     font-family: 'Montserrat', 'Sans serif';
-     width: 100%;
-     background-color: rgb(222, 252, 238);
- }
 
- .nav-links {
-	display: grid;
-    grid-template-columns: auto;
-    margin: 0;
-    width: 100%;
-    position: absolute;
-    top: -1000px;
-    opacity: 1;
-    z-index: -1;
-    transition:all 0.5s ease;
-}
-.nav-links.active {
-    background: white;
-    top: 100%;
-    opacity: 1;
-    transition:all 0.5s ease;
-    height: 60vh;
-    font-size: 1.6rem;
-    padding: 0;
-}
- 
- .title {
-     flex-grow: .5;
-     margin-top: 50px;
-     height: 100px;
-     color: rgb(168, 39, 39);
-     font-weight: 400;
-     font-size: 70px;
-     font-style: bold;
-     bottom: 0px;
- }
- 
- .navbar_toggle .bar{
-     display: none;
-     cursor: pointer;
-     width: 40px;
-     height: 3px;
-     margin: 15px;
-     transition:all 0.3s ease-in-out;
-     background: rgb(80, 99, 13);
- } */
-
-/* #mobile-menu {
-     position: absolute;
-     top: 5%;
-     right: 5%;
-     transform: translate(5%,20%);
- }
- 
- #mobile-menu.is-active .bar:nth-child(2) {
-     opacity:0;
- }
- #mobile-menu.is-active .bar:nth-child(1) {
-     transform: translateY(8px) rotate(45deg);
- }
- #mobile-menu.is-active .bar:nth-child(3) {
-     transform: translateY(-8px) rotate(-45deg);
- } */
-
-/* ion-icon {
-     color: gray;
-     width: 50px;
-     
-     
- }
- 
- .main-containers{
-     height: 700px;
-     display: grid;
-     grid-template-columns: 33% 33% 32.5%;
-     grid-template-rows: 200px 200px;
-     row-gap: 10px;
-     column-gap:15px;
-     border: 2px blue solid;
-     margin:10px;
- }
- 
- .hero-container .hero-img{
-     grid-column-start: 2;
-     grid-row-start: 1;
-     grid-row-end: 4;
-     grid-column-end: 2;
- }
- 
- .spotlight{
-     grid-column-start: 3;
-     grid-row-start: 2;
-     grid-row-end: 4;
-     grid-column-end: 3;
- }
- 
- .footer{
-     display: grid;
-     width: 1905px;
-     height:151px;
-     grid-template-columns: 33% 33% 33%;
-     grid-template-rows: 200px 200px 200px;
- }
- 
- .footer-logo{
-     height:100px;
-     grid-column-start: 1;
-     grid-column-end: 1;
-     grid-row-start: 1;
-     grid-row-end: 2;
-     background-color: bisque;
-     text-align: center;
- }
- .contact-info{
-     height:100px;
-     grid-column-start: 2;
-     grid-column-end: 2;
-     grid-row-start: 1;
-     grid-row-end: 2;
-     background-color: bisque;
-     text-align: center;
- }
- .map-link{
-     height:100px;
-     grid-column-start: 3;
-     grid-column-end: 3;
-     grid-row-start: 1;
-     grid-row-end: 2;
-     background-color: bisque;
-     text-align: center;
- }
- .final-info{
-     margin-top: -5.25%;
-     height: 50px;
-     width: 100%;
-     grid-column-start: 1;
-     grid-column-end: 4;
-     grid-row-start: 2;
-     grid-row-end: 2;
-     background-color: bisque;
-     text-align: center;
- } */

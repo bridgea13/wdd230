@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Directory</title>
-    <link rel="stylesheet" href="styles/base.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/directory.css" >
+  </head>
+  <body>
+    <header>
+        <nav class="navbar">
+          <div class="navbar_container">
+            <div class="main-logo">
+              <a href="index.html"><img src="images/freewix_logochamber.jpg" alt="chamberLogo"></a>
+            </div>
+            <div class="title">City Center<br />Chamber of Commerce</div>
+            <div class="navbar_toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>  
+          <div class="social"><img src="images/twitterlogo.png" alt="twitterlogo"><img src="images/instalogo.png" alt="instalogo"></a></div>
+          <div class="current-date"></div>
+          
+          <div class="nav-links">
+            <ul>
+              <li class="navbar__item">
+                <a href="discover.html" class="navbar__links" id="discover-page"
+                  >Discover</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a href="directory.html" class="navbar__links" id="directory-page"
+                  >Directory</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a href="join.html" class="navbar__links" id="join-page">Join</a>
+              </li>
+              <li class="navbar__item">
+                <a href="contact.html" class="navbar__links" id="contact-page"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <main>
+      <div class="directory-button">
+        <button id="grid">Grid</button>
+        <button id="list">List</button>
+      </div>
+      <div class="directory-grid" id="changer">
+        
+      </div>
+    </main><footer class="footer">
+        <div class="footer-logo">
+          <img
+            src="images/freewix_logochamber.jpg"
+            class="footer-logo"
+            alt="citycenterlogo"
+          />
+        </div>
+        <div class="contact-info">
+          123 Berry Hill Lane | Red River, NM | (555)123-8372
+        </div>
+        <div class="map-link">
+          <a
+            href="https://www.google.com/maps/place/Red+River+Ski+%26+Summer+Area/@36.702334,-105.4082775,14z/data=!4m15!1m8!3m7!1s0x871715f629295997:0x81dc866c92a37c41!2sRed+River,+NM!3b1!8m2!3d36.7080849!4d-105.4061159!16s%2Fm%2F0208rbg!3m5!1s0x871715f9350dc289:0xb020024e06ae54fa!8m2!3d36.7062461!4d-105.4128874!16s%2Fg%2F1ttpbrw6?entry=ttu"
+            >Location Map</a
+          >
+        </div>
+        <div class="final-info">
+          &copy; <span id="year"> </span> Alice Bridge WDD230 Project Last
+          modified <span id="lastModified"></span>
+        </div>
+      </footer>
+      <script src="scripts/script.js"></script>
+      
+    <script src="scripts/directory.js"></script>
+  </body>
 </html>
