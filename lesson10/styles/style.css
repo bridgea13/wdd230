@@ -1,0 +1,22 @@
+
+
+body{
+    background-color: rgb(182, 239, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+footer{
+    background-color: rgb(205, 229, 242);
+    border-radius: 5%;
+    padding: 15px;
+}
+.weather{
+    background-color: azure;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5%;
+    border:solid black 5px;
+    
+}

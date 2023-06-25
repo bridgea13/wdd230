@@ -48,6 +48,7 @@ header {
 
 .current-date {
   background-color: bisque;
+  align-items: center;
 }
 
 .navbar {
@@ -286,6 +287,10 @@ p {
 .spotlight-container img {
   height: auto;
   width: 100%;
+}
+
+.spotlight3, .spotlight4{
+  display: none;
 }
 
 footer {

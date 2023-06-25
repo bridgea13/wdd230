@@ -29,22 +29,26 @@
   }
 
   .main-containers {
-    
+    margin: 25px auto;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 52px 10px;
   }
 
   .event-container {
+    height:auto;
     grid-column: 1/2;
     grid-row: 1/2;
   }
 
   .hero-container {
+    height:auto;
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 1/3;
   }
 
   .weather-container {
+    height:auto;
     position: relative;    
     grid-column: 1/2;
     grid-row: 2/3;
@@ -57,18 +61,30 @@
   }
 
   .join-container {
+    height:auto;
     grid-column: 1/2;
     grid-row: 3/4;
   }
 
   .news-container {
+    height:auto;
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 3/5;
   }
 
   .spotlight-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height:auto;
     grid-column: 3/4;
     grid-row: 1/5;
+    align-items: left;
+  }
+
+  .spotlight3, .spotlight4{
+    display: flex;
+
   }
 
 }
