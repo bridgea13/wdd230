@@ -1,0 +1,10 @@
+.discover-containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.picture-container img{
+    height: auto;
+    max-width: 200px;
+}

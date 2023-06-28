@@ -67,6 +67,8 @@ header {
   width: 100%;
   z-index: 1;
   background-color: rgb(222, 252, 238);
+  border: solid rgb(120, 117, 117);
+  
 }
 
 .navbar__item:hover{
@@ -77,11 +79,14 @@ header {
 }
 .main-logo {
   padding-right: 15px;
+  
 }
 .main-logo img{
   height: 150px;
   width: 150px;
   padding-left: .5em;
+
+  
 }
 
 .title {
@@ -91,6 +96,7 @@ header {
   letter-spacing: 1px;
   bottom: 0px;
   width: fit-content;
+  
 }
 
 .navbar_toggle .bar {
@@ -106,6 +112,7 @@ header {
 .navigation-toolbar {
   background-color: burlywood;
   display: block;
+  
 }
 
 .nav-links {
@@ -127,6 +134,7 @@ header {
   margin-top: 0%;
   background-color: white;
   font-weight: 800;
+  
 }
 
 .nav-links.active {
@@ -152,6 +160,7 @@ header {
   font-weight: 1000;
   text-align: center;
   width: 100%;
+  
 }
 
 .navbar__item {
@@ -189,6 +198,7 @@ header {
   display: flex;
   align-items: center;
   margin-left: 1rem;
+  
 }
 
 .logo img {
@@ -204,7 +214,6 @@ header {
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
@@ -223,7 +232,11 @@ header {
 .social {
   display: flex;
   color: rgb(60, 82, 19);
+}
 
+.current-date{
+  text-align: center;
+  color: rgb(133, 15, 15);
 }
 
 .main-containers {
@@ -231,27 +244,141 @@ header {
   align-items: center;
   justify-content: space-between;
   max-width: fit-content;
+  background-color: bisque;
+  gap: 5px;
 }
 
-.event-container img {
+.event-container{
   height: auto;
   width: 100%;
+  background-color: rgb(190, 220, 221);
+  border: solid rgb(120, 117, 117);
+  box-shadow: 0 0 30px #333;
+}
+
+.hero-container{
+  background-color: rgb(190, 220, 221);
+  border: solid rgb(120, 117, 117);
+  box-shadow: 0 0 30px #333;
 }
 
 .hero-container img {
   height: auto;
-  width: 100%;
+  width: 100%;  
 }
 
-.join-container img {
+.join-container{
+  display: grid;  
   height: auto;
   width: 100%;
+  background-color: rgb(190, 220, 221);
+  border: solid rgb(120, 117, 117);
 }
 
-.weather-container img {
+.joinpage-sections{
+  background-color: rgb(190, 220, 221);
+  border: solid rgb(120, 117, 117);
+}
+
+form fieldset{
+  margin: 2rem 0;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend{
+  color:#24365f;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+
+}
+
+form label.top input, form label.top select{
+  display: block;
+  font-size: 1rem;
+  border: solid 1 px black;
+  border-radius: 4px;
+  padding: .75rem;
+  color: black;
+  width: 100%;
+  max-width: 20rem;
+  background-color: white;
+}
+
+form label.sbs{
+  display: block;
+  padding: .75rem 0;
+  color:brown;
+}
+
+form input.submitButton{
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required{
+  border-left: brown solid 6px;
+}
+
+form label.top input:required:valid{
+  border-left:black solid 6px;
+}
+table {
+  font-family: "Caveat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  border: thin solid brown var(--border);
+  box-shadow: 0 0 10px var(--shadow);
+  border-collapse: separate;
+  empty-cells: show;
+}
+thead {
+  background-color: white;
+  text-align: center;
+  empty-cells: show;
+}
+th {
+  text-align: center;
+  border: 1px solid black;
+
+  padding: 8px;
+  color: black;
+}
+td {
+  text-align: center;
+  border: 1px solid black;
+  font-weight:500;
+  padding: 8px;
+  color:black;
+}
+
+tr:nth-child(even) {
+  background-color: #bdbaba;
+}
+caption {
+  padding: 10px;
+  caption-side: bottom;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.weather-container{
   height: auto;
   width: 100%;
   position: relative;
+  background-color: rgb(190, 220, 221);
+  border: solid rgb(120, 117, 117);
+  box-shadow: 0 0 30px #333;
 }
 
 h3 {
@@ -279,22 +406,35 @@ p {
   font-weight: 700;
 }
 
-.news-container img {
+.news-container{
   height: auto;
   width: 100%;
+  /* background-color: radial-gradient(rgb(190, 220, 221), rgb(145, 233, 199)); */
+  background-color: rgb(190, 220, 221);
+  border: solid rgb(120, 117, 117);
+  box-shadow: 0 0 30px #333;
 }
 
-.spotlight-container img {
+.spotlight-container{
   height: auto;
   width: 100%;
+  background-color: rgb(190, 220, 221);
+  border: solid rgb(120, 117, 117);
+  box-shadow: 0 0 30px #333;
 }
 
-.spotlight3, .spotlight4{
-  display: none;
+.spotlight-sections{
+  height: 600px;
+  border: solid rgb(120, 117, 117);
+  background-color: white;
+  margin: 12px;
 }
 
 footer {
   padding: 0.75rem;
   background-color: bisque;
   text-align: center;
+  border: solid rgb(120, 117, 117);
+  background-color:rgb(222, 252, 238);
+  
 }

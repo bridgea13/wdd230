@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber Project</title>
-    <link rel="stylesheet" type="text/css" href="styles/base.css" />
-    <link rel="stylesheet" type="text/css" href="styles/medium.css" />
-    <link rel="stylesheet" type="text/css" href="styles/large.css" />
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
   </head>
   <body>
     <div class="banner">
@@ -18,7 +18,9 @@
       <nav class="navbar">
         <div class="navbar_container">
           <div class="main-logo">
-            <a href="index.html"><img src="images/freewix_logochamber.jpg" alt="chamberLogo"></a>
+            <a href="index.html"
+              ><img src="images/freewix_logochamber.jpg" alt="chamberLogo"
+            /></a>
           </div>
           <div class="title">City Center<br />Chamber of Commerce</div>
           <div class="navbar_toggle" id="mobile-menu">
@@ -26,12 +28,22 @@
             <span class="bar"></span>
             <span class="bar"></span>
           </div>
-        </div>  
-        <div class="social"><img src="images/twitterlogo.png" alt="twitterlogo"><img src="images/instalogo.png" alt="instalogo"></a></div>
+        </div>
+        <div class="social">
+          <a href="https://www.twitter.com"
+            ><img src="images/twitterlogo.png" alt="twitterlogo"
+          /></a>
+          <a href="https://www.instagram.com"
+            ><img src="images/instalogo.png" alt="instalogo"
+          /></a>
+        </div>
         <div class="current-date"></div>
-        
+
         <div class="nav-links">
           <ul>
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links" id="home-page">Home</a>
+            </li>
             <li class="navbar__item">
               <a href="discover.html" class="navbar__links" id="discover-page"
                 >Discover</a
@@ -59,28 +71,25 @@
         <picture class="hero-img">
           <source
             media="(max-width: 767px)"
-            srcset="images/heroimageSMALL.jpg" />
+            srcset="images/heroimageSMALL.jpg"
+          />
           <source
             media="(max-width: 1008px)"
-            srcset="images/heroimageMEDIUM.jpg" />
+            srcset="images/heroimageMEDIUM.jpg"
+          />
           <source
             media="(max-width: 1009px)"
-            srcset="images/heroimageLARGE.jpg" />
+            srcset="images/heroimageLARGE.jpg"
+          />
           <img
             src="images/heroimageLARGE.jpg"
             alt="man and woman at table with laptop"
-        /></picture>
+          />
+        </picture>
         <div class="overlay"></div>
       </div>
-      <div class="event-container">
-        <picture class="balloon-img">
-          <img src="images/hotbaloonTwoOPTI.jpg" alt="hot air balloons"
-        /></picture>
-      </div>
+      <div class="event-container"></div>
       <div class="weather-container">
-        <picture class="weather-img">
-          <img src="images/weatherOPTI.jpg" alt="pink sky"
-        /></picture>
         <section class="weathersummary">
           <h3>Weather Summary</h3>
           <p>Label: <span id="Value"></span></p>
@@ -88,30 +97,22 @@
           <p>Label: <span id="Value"></span></p>
         </section>
       </div>
-      <div class="news-container">
-        <picture class="wildflower-img">
-          <img src="images/wildflowersOPTI.jpg" alt="wildflowers"
-        /></picture>
-      </div>
+      <div class="news-container">news</div>
       <div class="spotlight-container">
-        <picture class="canyon-img spotlight1">
-          <img src="images/canyonOPTI.jpg" alt="canyon"
-        /></picture>
-        <picture class="canyon-img spotlight2">
-          <img src="images/canyonOPTI.jpg" alt="canyon"
-        /></picture>
-        <picture class="canyon-img spotlight3">
-          <img src="images/canyonOPTI.jpg" alt="canyon"
-        /></picture>
-        <!-- <picture class="canyon-img spotlight4">
-          <img src="images/canyonOPTI.jpg" alt="canyon"
-        /></picture> -->
+        <section class="spotlight-sections">
+          <h4>Spotlight 1</h4>
+          <p>info here</p>
+        </section>
+        <section class="spotlight-sections">
+          <h4>Spotlight 1</h4>
+          <p>info here</p>
+        </section>
+        <section class="spotlight-sections">
+          <h4>Spotlight 1</h4>
+          <p>info here</p>
+        </section>
       </div>
-      <div class="join-container">
-        <picture class="shops-img">
-          <img src="images/shoppingOPTI.jpg" alt="shops-img"
-        /></picture>
-      </div>
+      <div class="join-container">join</div>
     </main>
     <footer class="footer">
       <div class="footer-logo">
