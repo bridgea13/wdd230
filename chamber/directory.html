@@ -5,51 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Directory</title>
-    <link rel="stylesheet" href="styles/base.css" >
-    <link rel="stylesheet" href="styles/directory.css" >
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
+    <link rel="stylesheet" type="text/css" href="styles/directory.css" >
   </head>
   <body>
     <header>
-        <nav class="navbar">
-          <div class="navbar_container">
-            <div class="main-logo">
-              <a href="index.html"><img src="images/freewix_logochamber.jpg" alt="chamberLogo"></a>
-            </div>
-            <div class="title">City Center<br />Chamber of Commerce</div>
-            <div class="navbar_toggle" id="mobile-menu">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-          </div>  
-          <div class="social"><img src="images/twitterlogo.png" alt="twitterlogo"><img src="images/instalogo.png" alt="instalogo"></a></div>
-          <div class="current-date"></div>
-          
-          <div class="nav-links">
-            <ul>
-              <li class="navbar__item">
-                <a href="discover.html" class="navbar__links" id="discover-page"
-                  >Discover</a
-                >
-              </li>
-              <li class="navbar__item">
-                <a href="directory.html" class="navbar__links" id="directory-page"
-                  >Directory</a
-                >
-              </li>
-              <li class="navbar__item">
-                <a href="join.html" class="navbar__links" id="join-page">Join</a>
-              </li>
-              <li class="navbar__item">
-                <a href="contact.html" class="navbar__links" id="contact-page"
-                  >Contact</a
-                >
-              </li>
-            </ul>
+      <nav class="navbar">
+        <div class="navbar_container">
+          <div class="main-logo">
+            <a href="index.html"
+              ><img src="images/freewix_logochamber.jpg" alt="chamberLogo"
+            /></a>
           </div>
-        </nav>
-      </header>
+          <div class="title">City Center<br />Chamber of Commerce</div>
+          <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+        <div class="social">
+          <a href="https://www.twitter.com"
+            ><img src="images/twitterlogo.png" alt="twitterlogo"
+          ></a>
+          <a href="https://www.instagram.com"
+            ><img src="images/instalogo.png" alt="instalogo"
+          ></a>
+        </div>
+        <div class="current-date"></div>
+
+        <div class="nav-links">
+          <ul>
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="discover.html" class="navbar__links" id="discover-page"
+                >Discover</a
+              >
+            </li>
+            <li class="navbar__item">
+              <a href="directory.html" class="navbar__links" id="directory-page"
+                >Directory</a
+              >
+            </li>
+            <li class="navbar__item">
+              <a href="join.html" class="navbar__links" id="join-page">Join</a>
+            </li>
+            <li class="navbar__item">
+              <a href="contact.html" class="navbar__links" id="contact-page"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
+      <div><h1>Our Members</h1></div>
       <div class="directory-button">
         <button id="grid">Grid</button>
         <button id="list">List</button>
@@ -57,13 +72,14 @@
       <div class="directory-grid" id="changer">
         
       </div>
-    </main><footer class="footer">
+    </main>
+    <footer class="footer">
         <div class="footer-logo">
           <img
             src="images/freewix_logochamber.jpg"
             class="footer-logo"
             alt="citycenterlogo"
-          />
+          >
         </div>
         <div class="contact-info">
           123 Berry Hill Lane | Red River, NM | (555)123-8372

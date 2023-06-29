@@ -1,24 +1,74 @@
 [
     {
-        "name": "Target",
-        "address": "4225 Crestview Dr SE, Rio Rancho, NM 87124",
-        "phone": "1.800.440.0680",
-        "url": "https://target.com",
-        "urlTex":"www.target.com",
+        "name": "Target | Gold Member",
+        "address": "4225 Crestview Dr SE, Red River, NM 87124",
+        "phone": "1.800.555.0680",
+        "url": "https://Target.com",
+        "urlTex":"www.Target.com",
         "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
     },
     {
-        "name": "Target",
-        "address": "4225 Crestview Dr SE, Rio Rancho, NM 87124",
-        "phone": "1.800.440.0680",
-        "url": "https://target.com",
+        "name": "Walgreens | Gold Member",
+        "address": "1644 Eagle View Dr, Red River, NM 87124",
+        "phone": "1.800.555.6080",
+        "url": "https://Walgreens.com",
+        "urlTex":"www.Walgreens.com",
         "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
     },
     {
-        "name": "Target",
-        "address": "4225 Crestview Dr SE, Rio Rancho, NM 87124",
-        "phone": "1.800.440.0680",
-        "url": "https://target.com",
+        "name": "PetSmart | Gold Member",
+        "address": "616 Flower Dr, Red River, NM 87124",
+        "phone": "1.800.555.0450",
+        "url": "https://PetSmart.com",
+        "urlTex":"www.PetSmart.com",
+        "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
+    },
+    {
+        "name": "Michael's | Gold Member",
+        "address": "105 Orange Lane, Red River, NM 87124",
+        "phone": "1.800.555.0433",
+        "url": "https://Michaels.com",
+        "urlTex":"www.Michaels.com",
+        "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
+    },
+    {
+        "name": "Papa John's | Gold Member",
+        "address": "7754 Apple Rd, Red River, NM 87124",
+        "phone": "1.800.555.0118",
+        "url": "https://Papajohns.com",
+        "urlTex":"www.Papajohns.com",
+        "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
+    },
+    {
+        "name": "Chili's | Silver Member",
+        "address": "25 Lemonview Dr, Red River, NM 87124",
+        "phone": "1.800.555.3380",
+        "url": "https://Chilis.com",
+        "urlTex":"www.Chilis.com",
+        "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
+    },
+    {
+        "name": "Kirkland's | Silver Member",
+        "address": "955 Citrus Dr NE, Red River, NM 87124",
+        "phone": "1.800.555.0970",
+        "url": "https://Kirklands.com",
+        "urlTex":"www.Kirklands.com",
+        "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
+    },
+    {
+        "name": "Joann | Bronze Member",
+        "address": "422 Lime Dr, Red River, NM 87124",
+        "phone": "1.800.555.2780",
+        "url": "https://Joann.com",
+        "urlTex":"www.Joann.com",
+        "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
+    },
+    {
+        "name": "Panera | Bronze Member",
+        "address": "55 Grapefruit St, Red River, NM 87124",
+        "phone": "1.800.555.1160",
+        "url": "https://Panera.com",
+        "urlTex":"www.Panera.com",
         "imageURL": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w\" alt=\"image"
     }
 ]
