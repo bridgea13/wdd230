@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Join Form</title>
     <link rel="stylesheet" type="text/css" href="styles/base.css" >
     <link rel="stylesheet" type="text/css" href="styles/medium.css" >
     <link rel="stylesheet" type="text/css" href="styles/large.css" >
+    <link rel="stylesheet" type="text/css" href="styles/join.css" >
 </head>
 <body>
     <header>
@@ -60,58 +61,9 @@
             </ul>
           </div>
         </nav>
-      </header>
-    <section class="contactus">
-        <h1>Contact Us</h1>
-        <h2>City Center Chamber of Commerce<br>123 Berry Hill Lane<br>Red Rock, New Mexico 88036<br>Phone: (123)555-6789<br>join@citycenter.com</h2>
-        
-    </section>
-    <section class="contactpage-sections">
-        <h1>General Inquiries</h1>
-        <form method="get" action="joinform.html">
-          <fieldset>
-            <legend>Contact Information</legend>
-            <label class="top"
-              >First Name* <input type="text" name="fname" required
-            ></label>
-            <label class="top"
-              >Last Name* <input type="text" name="lname" required
-            ></label>
-            <label class="top"
-              >Phone <input type="tel" name="phone" placeholder="1235551234"
-            ></label>
-            <label class="top"
-              >Email*
-              <input
-                type="email"
-                name="email"
-                placeholder="johndoe@gmail.com"
-                required
-            ></label>
-            <label class="top"
-              >Company Name* <input type="text" name="company" required
-            ></label>
-            <label class="top"
-              >What questions do you have? <input type="text" name="description"
-            ></label>
-          </fieldset>
-          <fieldset>
-            <legend>Are you a Chamber Member?</legend>
-            <label class="sbs"
-              ><input type="radio" name="audience" value="Yes" />Yes</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="audience" value="No" />No</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="audience" value="Not Sure" />Not Sure</label
-            >
-           
-          </fieldset>
-          <input type="submit" onclick="submitform();" value="Submit" class="submitButton" />
-        </form>
-      </section>
-      <footer class="footer">
+    </header>
+        <div><h5>Thank you for your submission! You will be contacted in 3-5 business days. <br>If you have not been contacted after 5 days, please call us at 555-123-4567.</h5></div>
+    <footer class="footer">
         <div class="footer-logo">
           <img
             src="images/freewix_logochamber.jpg"
@@ -133,7 +85,6 @@
           modified <span id="lastModified"></span>
         </div>
       </footer>
-      <script src="scripts/join.js"></script>
-      <script src="scripts/script.js"></script>
+      <script src="scripts/script.js"></script> 
 </body>
 </html>

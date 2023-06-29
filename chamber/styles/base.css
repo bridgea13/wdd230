@@ -206,32 +206,13 @@ header {
   height: auto;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: rgb(133, 15, 15);
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
 .social {
   display: flex;
   color: rgb(60, 82, 19);
+}
+
+.social img:hover{
+  opacity: 20%;
 }
 
 .current-date{
@@ -267,6 +248,9 @@ header {
   width: 100%;  
 }
 
+h1{
+  text-align: center;
+}
 .join-container{
   display: grid;  
   height: auto;
@@ -275,7 +259,7 @@ header {
   border: solid rgb(120, 117, 117);
 }
 
-.joinpage-sections{
+.joinpage-sections, .contactpage-sections{
   background-color: rgb(190, 220, 221);
   border: solid rgb(120, 117, 117);
 }
@@ -334,12 +318,14 @@ table {
   font-family: "Caveat", sans-serif;
   font-size: 20px;
   text-align: center;
+  justify-content: center;
   border-collapse: collapse;
   width: 100%;
   border: thin solid brown var(--border);
   box-shadow: 0 0 10px var(--shadow);
   border-collapse: separate;
   empty-cells: show;
+  margin-right: 30px;
 }
 thead {
   background-color: white;
@@ -428,6 +414,24 @@ p {
   border: solid rgb(120, 117, 117);
   background-color: white;
   margin: 12px;
+}
+
+.contactus{
+  text-align: center;
+}
+
+ h5{
+  background-color: rgb(190, 220, 221);
+  border: solid rgb(120, 117, 117);
+  height: 60px;
+  font-size: larger;
+  justify-content: center;
+  text-align: center;
+ }
+
+.footer-logo img{
+  height: 150px;
+  width: 150px;
 }
 
 footer {
