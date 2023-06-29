@@ -6,6 +6,7 @@ main{
     gap:5px;
 }
 
+
 .directory-button{
     display: flex;
     justify-content: center;
@@ -32,6 +33,11 @@ main{
     justify-content: center;
     
     
+}
+.directory-grid img {
+    height: 75px;
+    max-width: 100%;
+    padding: 20px;
 }
 .directory-grid section{
     text-align: center;
@@ -65,9 +71,14 @@ main{
     max-width: 100%;
     padding: 20px;
 } */
+.directory-list{
+    font-size: 12px;
+}
 
 @media only screen and (min-width: 400px) {
-    
+    .directory-list{
+    font-size: 14px;
+    }
     
 }
 
@@ -78,9 +89,9 @@ main{
         max-width: 100%;
         padding: 20px;
     }
-    img {
-        height: 75px;
-        max-width: 100%;
-        padding: 20px;
+    .directory-list{
+        font-size: 17px;
     }
+   
+    
 }

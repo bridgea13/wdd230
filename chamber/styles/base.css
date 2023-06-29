@@ -415,6 +415,9 @@ p {
   background-color: white;
   margin: 12px;
 }
+.spotlight-container img{
+  height: 75px;
+}
 
 .contactus{
   text-align: center;

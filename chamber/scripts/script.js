@@ -54,6 +54,38 @@ const hideMobileMenu = () => {
 menuLinks.addEventListener('click', hideMobileMenu);
 
 
+fetch("json/data.json")
+  .then((response) => response.json())
+  .then((data) => {
+    for(let i = 0; i< 3; i++){
+      const randomNumber = Math.floor(Math.random() * (data.length + 1));
+    const biz_name = document.createElement("h3");
+    const biz_site = document.createElement("a");
+    const biz_image = document.createElement("img");
+    const biz_address = document.createElement("p");
+    const biz_phone = document.createElement("p");
+
+    const biz = document.createElement("section");
+
+    biz.appendChild(biz_name);
+    biz.appendChild(biz_image);
+    biz.appendChild(biz_address);
+    biz.appendChild(biz_phone);
+    biz.appendChild(biz_site);
+    document.getElementById("spot_directory").appendChild(biz);
+
+    biz_image.src = data[randomNumber].imageURL;
+    biz_name.textContent = data[randomNumber].name;
+    biz_phone.textContent = data[randomNumber].phone;
+    biz_address.textContent = data[randomNumber].address;
+    biz_site.textContent = data[randomNumber].urlTex;
+    biz_site.href = data[randomNumber].url;
+    }
+  })
+  .catch((error) => {
+    console.log("Error:", error);
+  });
+  
 
 
 

@@ -46,3 +46,4 @@ fetch("json/data.json")
   .catch((error) => {
     console.log("Error:", error);
   });
+  
