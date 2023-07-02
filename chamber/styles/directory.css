@@ -47,6 +47,8 @@ main{
 .directory-list{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width:auto;
     gap: 5px;
 }
 .directory-list section{
@@ -59,25 +61,23 @@ main{
     border: solid 1px;
     background-color:rgb(235, 208, 213) ;
     gap:8px;
-
+    
     
 }
 .directory-list img{
     display: none;
     
 }
-/* .imageURL{
-    height: 75px;
-    max-width: 100%;
-    padding: 20px;
-} */
+
 .directory-list{
     font-size: 12px;
+    
 }
 
 @media only screen and (min-width: 400px) {
     .directory-list{
     font-size: 14px;
+    max-width: 100%;
     }
     
 }
