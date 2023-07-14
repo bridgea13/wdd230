@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Gaegu&family=Waiting+for+the+Sunrise&family=Yuji+Boku&display=swap");
+/* #332b98 darker peri
+#ebf99a yell
+#ffc0c0 grapefruit
+#6f67bc peri
+#aae552 lime
+#8ac630 darker green
+#de52e5 purple*/
+
+/* *{
+    outline: 1px solid;
+} */
+html {
+  background-color: #ebf99a;
+  font-family: "Waiting for the Sunrise";
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header,
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #6f67bc;
+  color: #ffc0c0;
+  border: 3px solid #332b98;
+}
+@media screen and (min-width: 901px){
+    header{
+        flex-direction: row;
+    
+    }
+    header ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+    header li a{
+        padding: 40px;
+        font-size: 40px;
+    }
+}
+header img {
+  margin-top: 10px;
+  margin-left: auto;
+  border: 3px solid #aae552
+}
+.navbar_item {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #ffc0c0;
+  font-size: 20px;
+}
+.main_container img{
+    width: 100%;
+    height: 600px;
+}
+footer{
+    padding: 10px;
+}
+footer img{
+    height: 30px;
+    width: auto;
+}
+footer h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer h3{
+    margin: 0;
+    font-size: 18px;
+}

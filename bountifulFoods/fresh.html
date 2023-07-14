@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods: Fresh Page</title>
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
+</head>
+<body>
+    <header>
+        
+            <div class="main_logo"><a href="home.html"><img src="images/bountifullogo.jpg" alt="bountiful_logo"></a></div>
+            <div class="nav_links">                
+                <ul>
+                    <li class="navbar_item"><a href="home.html" class="navbar_links" id="homepage">Home</a></li>
+                    <li class="navbar_item"><a href="fresh.html" class="navbar_links" id="freshpage">Fresh</a></li>
+                    <li class="navbar_item"><a href="aboutUs.html" class="navbar_links" id="aboutuspage">About Us</a></li>
+                </ul>                
+            </div>
+        
+    </header>
+    <main>
+       <div class="smoothie_order" id ="smoothie_order">
+            <img src="images/outdoor_smoothieOPTI.jpg" alt="outdoorsmoothie">
+            <h1>Make Your Blended Fruit Formulation</h1>
+            <form >
+                <fieldset>
+                    <legend>Customer Info</legend>
+                    <label for="customer_info">Name: <input type="text" name="name" required></label>
+                    <label for="customer_info">Phone: <input type="tel" name="phone" placeholder="555-555-5555" required></label>
+                    <label for="customer_info">Email: <input type="email" name="email" placeholder="fruitfriend@gmail.com" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Smoothie Order</legend>
+                    <label for="fruit_choices" id ="multiselect">Select 3 fruits</label>
+                    <br>
+                    <label for="special_instructions">Special Instructions: <input type="text" name="special_instructions" id ="special_instructions"></label>
+                </fieldset>
+                <input type="button" onclick="submitform(event);" value="Submit" class="submitButton">
+            </form>
+        </div> 
+        <div class="reciept" id="reciept" style="display:none">
+            <h3>Order Info</h3>
+            <p id="name"></p>
+            <p id="email"></p>
+            <p id="phone"></p>
+            <p id="fuits_choices"></p>
+            <p id="special"></p>
+            <p id="date"></p>
+            <h3>Nutritional Facts:</h3>
+            <p id="calories"></p>
+            <p id="protien"></p>
+            <p id="carbs"></p>
+            <p id="fat"></p>
+            <p id="sugar"></p>
+
+
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.twitter.com"><img src="images/twitticon.png" alt="twitterlogo"></a>
+            <a href="https://www.instagram.com"><img src="images/instaicon.png" alt="instalogo"></a>
+            <a href="https://www.facebook.com"><img src="images/fbicon.png" alt="fblogo"></a>
+        </div>
+        <div class="contact_info"><h2>Our Main Location</h2><h3>883 Peach Hill Lane Carlsbad, CA 49483 | 819-555-7498 | bountifulfoods@gmail.org</h3></div>
+        <div class="date_stamp">&copy; <span id="year"></span> | Alice Bridge | Bountiful Foods Project | Last Modified <span id="lastModified"></span></div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
