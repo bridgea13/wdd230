@@ -19,8 +19,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-header,
-footer {
+header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,26 +45,80 @@ footer {
         font-size: 40px;
     }
 }
+header li a{
+  padding: 10px;
+  font-size: 30px;
+  align-items: center;
+}
 header img {
-  margin-top: 3px;
-  margin-left: auto;
-  padding: 1em;
+  margin-top: 8px; 
+  
 }
 .navbar_item {
   list-style-type: none;
 }
-a {
-  text-decoration: none;
+.navbar_links {
+  text-decoration: none;  
+  font-size: 30px;
+  font-weight: 600;
   color: #332b98;
-  font-size: 20px;
+}
+main a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #de52e5;
+  font-size: 30px;
   font-weight: 800;
+  border: 2px solid;
+  padding: .05em; 
+}
+.suppliers_container img{
+  height: 100px;
 }
 .main_container img{
     width: 100%;
-    height: 600px;
+    border-radius: 50%;
+    margin-top: 3px;
+    
+}
+h1 {
+  font-family: "Gaegu";
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  color:#332b98; 
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #6f67bc;
+}
+.smoothie_container img{
+  width: 100%;
+  border-radius: 50px;
+}
+.findus_container img{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
 }
 footer{
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #8ac68a;
+  color: #332b98;
+  border: 3px solid #ffc0c0;
+  padding: 10px;
 }
 footer img{
     height: 30px;
