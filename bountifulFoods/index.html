@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/base.css">
     <link rel="stylesheet" type="text/css" href="styles/medium.css">
     <link rel="stylesheet" type="text/css" href="styles/large.css">
@@ -22,14 +23,22 @@
         
     </header>
     <main>        
-        <div class="main_container"><picture class="main_fruitpic"><img src="images/pixel.png" data-src="images/fruit-smoothies OP.jpg" alt="fruitsmoothies"></picture><h1>Bountiful Foods</h1><h2>Fresh Organic Produce<br>Locally Sourced</h2><a href="fresh.html">Order Now</a></div>
-        <div class="findus_container"><h1>Find the Fruit Truck!</h1><img src="images/pixel.png" data-src="images/foodtruckicon.png" alt="foodtruckicon"><h1>or visit our brick and mortar here</h1></div>
-        <div class="coastalinfo_container"><h1>Customers Love Us</h1><h2>The state of California grows the majority of US fruits and vegetables. Most of our farms that we resource from are organic, and all of our farms are researched and verified in using the best farming practices. This is what makes our produce the best in the business for the last 30 years.</h2><a href="aboutUs.html">About Us</a></div>
-        <div class="weather_container"><h1>Weather Summary</h1><h2>We can't control it, but we depend on it<br>Carlsbad, CA Current Conditions</h2><img src="images/weathercloud.png" alt="weathercloud">
-        <section class="weathersummary"><p id="degrees"></p><p id="windchill"></p><p id="humidity"></p><div id='forecast'></div></section>
+        <div class="main_container"><img src="images/pixel.png" data-src="images/fruit-smoothies OP.jpg" alt="fruitsmoothies">
+        <h1>Bountiful Foods</h1><h2>Fresh Organic Produce<br>Locally Sourced</h2><a href="fresh.html">Order Now</a></div>
+        <div class="findus_container">
+        <h1>Find the Fruit Truck!</h1><img src="images/pixel.png" data-src="images/foodtruckOP.jpg" alt="foodtruck"></div>
+        <div class="coastalinfo_container"><div class="map-link"><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13362.981904360942!2d-117.32789545582334!3d33.14205070039197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scarlsbad%20ca%20marina!5e0!3m2!1sen!2sus!4v1689692262303!5m2!1sen!2sus">Location Map</a></div>  
+        <h1>Customers Love Us</h1><h2>The state of California grows the majority of US fruits and vegetables. Most of our farms that we resource from are organic, and all of our farms are researched and verified in using the best farming practices. This is what makes our produce the best in the business for the last 30 years.</h2><a href="aboutUs.html">About Us</a></div>
+        <div class="weather_container">
+        <h1>Weather Summary</h1><h2>Carlsbad, CA <br> Current Conditions</h2>
+        <section class="weathersummary"><p id="degrees"></p><p id="windchill"></p><p id="humidity"></p></section>
         </div>
-        <div class="smoothie_container"><img src="images/pixel.png" data-src="images/pomegranate-orangeOPsmall.jpg" alt="main_fruitpic"><h1>Fresh Fruit Smoothies</h1><h2>Feel it nourishing in the first sip!</h2><a href="fresh.html">Mix It Up!</a><h2>Info card about # of total specialty drinks that the current user has submitted fomt he Fresh page form stored locally with user's agent(in their browser).</h2></div>
-        <div class="suppliers_container"><h1>Our Suppliers</h1><img src="images/pixel.png" data-src="images/evansfarms.png" alt="evansfarms"><img src="images/pixel.png" data-src="images/macyestate.png" alt="macyestate"><img src="images/pixel.png" data-src="images/berryhill.png" alt="berryhill"><img src="images/pixel.png" data-src="images/nettlefarm.png" alt="nettlefarm"></div>
+        <div class="threedayforecast"><h2>3 Day Forecast</h2><div id='forecast'></div>
+        <div class="smoothie_container"><img src="images/pixel.png" data-src="images/pomegranate-orangeOPsmall.jpg" alt="main_fruitpic">
+        <h1>Fresh Fruit Smoothies</h1><h2>Feel it nourishing in the first sip!</h2><a href="fresh.html">Mix It Up!</a><h2>Info card about # of total specialty drinks that the current user has submitted fomt he Fresh page form stored locally with user's agent(in their browser).</h2></div>
+        <div class="suppliers_container">
+        <h1> Some of Our Featured Suppliers:</h1>
+        <div class="suppliergallery"><img src="images/pixel.png" data-src="images/evansfarms.png" alt="evansfarms"><img src="images/pixel.png" data-src="images/macyestate.png" alt="macyestate"><img src="images/pixel.png" data-src="images/berryhill.png" alt="berryhill"><img src="images/pixel.png" data-src="images/nettlefarm.png" alt="nettlefarm"></div></div>
     </main>
     <footer>
         <div class="social">
@@ -40,6 +49,7 @@
         <div class="contact_info"><h2>Our Main Location</h2><h3>883 Peach Hill Lane Carlsbad, CA 49483 | 819-555-7498 | bountifulfoods@gmail.org</h3></div>
         <div class="date_stamp">&copy; <span id="year"></span> | Alice Bridge | Bountiful Foods Project | Last Modified <span id="lastModified"></span></div>
     </footer>
+    <!-- <script src="scripts/lazy.js"></script> -->
     <script src="scripts/script.js"></script>
     <script src="scripts/weather.js"></script>
 </body>

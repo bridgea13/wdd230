@@ -8,11 +8,8 @@
 #de52e5 purple
 #8ac68a*/
 
-/* *{
-    outline: 1px solid;
-} */
-html {
-  /* background-color: rgb(159, 200, 242); */
+
+html {  
   font-family: "Waiting for the Sunrise";
 }
 body {
@@ -29,33 +26,21 @@ header {
   color: #332b98;
   border: 3px solid #ffc0c0;
 }
-@media screen and (min-width: 901px){
-    header{
-        flex-direction: row;
-    
-    }
-    header ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    
-    }
-    header li a{
-        padding: 40px;
-        font-size: 40px;
-    }
-}
 header li a{
   padding: 10px;
   font-size: 30px;
   align-items: center;
 }
 header img {
-  margin-top: 8px; 
-  
+  margin-top: 8px;  
 }
 .navbar_item {
   list-style-type: none;
+}
+.navbar_item:hover{
+  cursor: pointer;
+  opacity: 0.75;
+  background-color:#ffc0c0;  
 }
 .navbar_links {
   text-decoration: none;  
@@ -63,51 +48,96 @@ header img {
   font-weight: 600;
   color: #332b98;
 }
-main a {
+main a {  
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   text-decoration: none;
-  color: #de52e5;
+  color: #db37e3;
+  width: 50%;
   font-size: 30px;
   font-weight: 800;
   border: 2px solid;
   padding: .05em; 
+  margin: auto;
+}
+main a:hover{
+  cursor: pointer;
+  opacity: 0.75;
+  background-color: #f8d6d6;
 }
 .suppliers_container img{
-  height: 100px;
+  height: 100px;  
 }
 .main_container img{
-    width: 100%;
+    width: 95%;
     border-radius: 50%;
-    margin-top: 3px;
-    
+    margin: auto; 
+    border: 2px solid #ffc0c0;
+    margin-top: 5px;   
+    padding: 5px; 
 }
-h1 {
-  font-family: "Gaegu";
+.about_img {
+  width: 100%;
+  margin-top: 5px;   
+}
+h1 {  
   font-size: 35px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center; 
   color:#332b98; 
+  background-color: #8ac68a;
+  border: 2px solid #ffc0c0;
 }
 h2 {
+  font-family: "Gaegu";
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #6f67bc;
 }
+.weathersummary, #forecast, #humidity, #windchill, #degrees, p{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid #6f67bc;
+  font-family: "Gaegu";
+  padding: 5px;
+}
+
+.cloud{
+  margin: auto;
+}
 .smoothie_container img{
   width: 100%;
   border-radius: 50px;
+  margin-top: 10px;
 }
 .findus_container img{
+  width: 100%;
   display:flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  border: 2px solid #ffc0c0;
+  margin-bottom: 3px;
+}
+.suppliergallery{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.smoothie_order img{
+  width: 100%;
+  border: 2px solid #ffc0c0;
+  margin-top: 20px;
 }
 footer{
   display: flex;
@@ -127,10 +157,38 @@ footer img{
 footer h2{
     margin-top: 5px;
     margin-bottom: 5px;
-    
+    color: #332b98;    
 }
 footer h3{
     margin: 0;
     font-size: 18px;
     font-weight: 1000;
+}
+@media screen and (min-width: 600px){
+  .cloud{
+    
+  } 
+}
+@media screen and (min-width: 901px){
+  header{
+      flex-direction: row;  
+  }
+  header ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;  
+  }
+  header li a{
+      padding: 40px;
+      font-size: 40px;
+  }
+  .main_container img{
+    width: 400px;
+          
+  }
+  .main_container{
+    display: flex;
+    flex-direction: row;
+   
+  }
 }
