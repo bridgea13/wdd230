@@ -5,13 +5,14 @@
 #6f67bc peri
 #aae552 lime
 #8ac630 darker green
-#de52e5 purple*/
+#de52e5 purple
+#8ac68a*/
 
 /* *{
     outline: 1px solid;
 } */
 html {
-  background-color: #ebf99a;
+  /* background-color: rgb(159, 200, 242); */
   font-family: "Waiting for the Sunrise";
 }
 body {
@@ -25,9 +26,9 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #6f67bc;
-  color: #ffc0c0;
-  border: 3px solid #332b98;
+  background-color: #8ac68a;
+  color: #332b98;
+  border: 3px solid #ffc0c0;
 }
 @media screen and (min-width: 901px){
     header{
@@ -46,17 +47,18 @@ footer {
     }
 }
 header img {
-  margin-top: 10px;
+  margin-top: 3px;
   margin-left: auto;
-  border: 3px solid #aae552
+  padding: 1em;
 }
 .navbar_item {
   list-style-type: none;
 }
 a {
   text-decoration: none;
-  color: #ffc0c0;
+  color: #332b98;
   font-size: 20px;
+  font-weight: 800;
 }
 .main_container img{
     width: 100%;
@@ -72,8 +74,10 @@ footer img{
 footer h2{
     margin-top: 5px;
     margin-bottom: 5px;
+    
 }
 footer h3{
     margin: 0;
     font-size: 18px;
+    font-weight: 1000;
 }
