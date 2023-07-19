@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,43 +10,55 @@
     <link rel="stylesheet" type="text/css" href="styles/medium.css">
     <link rel="stylesheet" type="text/css" href="styles/large.css">
 </head>
+
 <body>
     <header>
-        
-            <div class="main_logo"><a href="index.html"><img src="images/pixel.png" data-src="images/bountifullogo.jpg" alt="bountiful_logo"></a></div>
-            <div class="nav_links">                
-                <ul>
-                    <li class="navbar_item"><a href="index.html" class="navbar_links" id="homepage">Home</a></li>
-                    <li class="navbar_item"><a href="fresh.html" class="navbar_links" id="freshpage">Fresh</a></li>
-                    <li class="navbar_item"><a href="aboutUs.html" class="navbar_links" id="aboutuspage">About Us</a></li>
-                </ul>                
-            </div>
-        
+
+        <div class="main_logo"><a href="index.html"><img src="images/pixel.png" data-src="images/bountifullogo.jpg"
+                    alt="bountiful_logo"></a></div>
+        <div class="nav_links">
+            <ul>
+                <li class="navbar_item"><a href="index.html" class="navbar_links" id="homepage">Home</a></li>
+                <li class="navbar_item"><a href="fresh.html" class="navbar_links" id="freshpage">Fresh</a></li>
+                <li class="navbar_item"><a href="aboutUs.html" class="navbar_links" id="aboutuspage">About Us</a></li>
+            </ul>
+        </div>
+
     </header>
     <main>
-       <div class="smoothie_order" id ="smoothie_order">
+        <div class="smoothie_order" id="smoothie_order">
             <img src="images/pixel.png" data-src="images/outdoor_smoothie OP.jpg" alt="outdoorsmoothie">
             <h1>Make Your Blended Fruit Formulation</h1>
-            <form >
+            <form>
                 <fieldset>
                     <legend>Customer Info</legend>
-                    
-                    <label for="customer_info_name" >Name: <input type="text" id="customer_info_name" name="name" required></label><br>
-                    <label for="customer_info_phone">Phone: <input  type="tel" id="customer_info_phone" name="phone" placeholder="555-555-5555" required></label><br>
-                    <label for="customer_info_email">Email: <input  type="email" id="customer_info_email" name="email" placeholder="fruitfriend@gmail.com" required></label>
+
+                    <label for="customer_info_name">Name: <input type="text" id="customer_info_name" name="name"
+                            required></label><br>
+                    <label for="customer_info_phone">Phone: <input type="tel" id="customer_info_phone" name="phone"
+                            placeholder="555-555-5555" required></label><br>
+                    <label for="customer_info_email">Email: <input type="email" id="customer_info_email" name="email"
+                            placeholder="fruitfriend@gmail.com" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Smoothie Order</legend>
-                    <div id="multiselect"></div>
-                    <!-- <label for="multiselect" id ="multiselect">Select 3 fruits:  </label> -->
-                    <br>
-                    <label for="special_instructions">Special Instructions: <input type="text" name="special_instructions" id ="special_instructions"></label>
+                    <div class="smoothie_order_app">
+                        
+                        <h3>Select 3 fruits:&nbsp;&nbsp;</h3>
+                        <div id="multiselect" class="multiselect">
+                            
+                        </div>
+                        <!-- <label for="multiselect" id ="multiselect">Select 3 fruits:  </label> -->
+                        <br>
+                        <label for="special_instructions">Special Instructions:&nbsp; <input type="text"
+                                name="special_instructions" id="special_instructions"></label>
+                    </div>
                 </fieldset>
                 <input type="button" onclick="submitform(event);" value="Submit" class="submitButton">
             </form>
-        </div> 
+        </div>
         <div class="reciept" id="reciept" style="display:none">
-            <h3>Order Info</h3>
+            <h3>Order Info:</h3>
             <p id="name"></p>
             <p id="email"></p>
             <p id="phone"></p>
@@ -64,13 +77,22 @@
     </main>
     <footer>
         <div class="social">
-            <a href="https://www.twitter.com"><img src="images/pixel.png" data-src="images/twitticon.png" alt="twitterlogo"></a>
-            <a href="https://www.instagram.com"><img src="images/pixel.png" data-src="images/instaicon.png" alt="instalogo"></a>
-            <a href="https://www.facebook.com"><img src="images/pixel.png" data-src="images/fbicon.png" alt="fblogo"></a>
+            <a href="https://www.twitter.com"><img src="images/pixel.png" data-src="images/twitticon.png"
+                    alt="twitterlogo"></a>
+            <a href="https://www.instagram.com"><img src="images/pixel.png" data-src="images/instaicon.png"
+                    alt="instalogo"></a>
+            <a href="https://www.facebook.com"><img src="images/pixel.png" data-src="images/fbicon.png"
+                    alt="fblogo"></a>
         </div>
-        <div class="contact_info"><h2>Our Main Location</h2><h3>883 Peach Hill Lane Carlsbad, CA 49483 | 819-555-7498 | bountifulfoods@gmail.org</h3></div>
-        <div class="date_stamp">&copy; <span id="year"></span> | Alice Bridge | Bountiful Foods Project | Last Modified <span id="lastModified"></span></div>
+        <div class="contact_info">
+            <h2>Our Main Location</h2>
+            <h3>883 Peach Hill Lane Carlsbad, CA 49483 | 819-555-7498 | bountifulfoods@gmail.org</h3>
+        </div>
+        <div class="date_stamp">&copy; <span id="year"></span> | Alice Bridge | Bountiful Foods Project | Last Modified
+            <span id="lastModified"></span></div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/smoothie.js"></script>
 </body>
+
 </html>
