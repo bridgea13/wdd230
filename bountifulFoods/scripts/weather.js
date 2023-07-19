@@ -20,7 +20,7 @@ async function getWeatherData() {
             const iconsrc = `https://openweathermap.org/img/w/${conditionIcon}.png`;
             const airTemp = Math.round(airTemperature);
             const humidity = data.main.humidity;
-            console.log(data);
+            
             displayResults(conditionIcon, airTemp, windchill, humidity);
         } else {
             console.log('Error:', response.status);
@@ -42,7 +42,7 @@ function displayResults(conditionIcon, airTemperature, windchill, humidity) {
     document.getElementById("degrees").innerHTML = "Temperature = " + airTemperature + "\u00B0 F";
     document.getElementById("windchill").innerHTML = "Wind Chill = " + windchill + "\u00B0 F";
     document.getElementById("humidity").innerHTML = "Humidity = " + humidity + "%";
-    console.log(conditionIcon);
+    
 }
 
 getWeatherData();
@@ -52,7 +52,7 @@ async function getForecast() {
     const data = await forecast_response.json();
     for (let i=0; i<3; i++){
     const temp = data.list[i].main.temp;
-    console.log(temp);
+    
     const timestamp = data.list[i].dt;
     const date = new Date(timestamp * 1000);
     const formattedDate = date.toDateString();
@@ -60,7 +60,7 @@ async function getForecast() {
     tempP.textContent=temp.toString()+ "\u00B0 F";
     const dateP = document.createElement('p');
     dateP.textContent=formattedDate;
-    console.log(i);
+    
     forcastSpot.appendChild(dateP);
     forcastSpot.appendChild(tempP );
     }
