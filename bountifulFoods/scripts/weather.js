@@ -48,7 +48,7 @@ function displayResults(conditionIcon, airTemperature, windchill, humidity) {
 getWeatherData();
 async function getForecast() {
     forcastSpot = document.getElementById('forecast');
-    let forecast_response = await fetch('http://api.openweathermap.org/data/2.5/forecast?lat=33.1581&lon=-117.3506&appid=f99c062ee4493b70a5d7d7e818441f63&units=imperial');
+    let forecast_response = await fetch('https://api.openweathermap.org/data/2.5/forecast?lat=33.1581&lon=-117.3506&appid=f99c062ee4493b70a5d7d7e818441f63&units=imperial');
     const data = await forecast_response.json();
     for (let i=0; i<3; i++){
     const temp = data.list[i].main.temp;

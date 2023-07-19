@@ -54,7 +54,7 @@ main a {
   align-items: center;
   text-align: center;
   text-decoration: none;
-  color: #db37e3;
+  color: #be21c6;
   width: 50%;
   font-size: 30px;
   font-weight: 800;
@@ -69,7 +69,7 @@ main a:hover{
   color: white;
 }
 .main_container{
-  background-color: #f8d6d6;
+  background-color: #f2eded;
 }
 .main_container img{
     width: 95%;
